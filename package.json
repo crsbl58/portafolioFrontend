@@ -18,8 +18,8 @@
     "socket.io-client": "^4.5.1"
   },
   "scripts": {
-    
-    "start": "yarn start",
+
+     "start": "some command to be run",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
