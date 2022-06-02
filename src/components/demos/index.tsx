@@ -9,7 +9,7 @@ import svg from "../../img/svg/index";
 
 const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
   const [stateDemos, setStateDemos] = useState<any>({
-    indexSelected: 0
+    indexSelected: 0,
   });
 
   const [stateListDemos] = useState([
