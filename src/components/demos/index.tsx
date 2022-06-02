@@ -29,7 +29,7 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
       components: 2,
     },
     {
-      name: "Chat",
+      name: "Sala Chat",
       iconComponent: svg().iconChatRoom,
       components: 3,
     },
