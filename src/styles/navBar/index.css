@@ -32,8 +32,10 @@ nav > ul > li {
   font-family: "Lobster", cursive;
   transition: 0.3s;
   background-color: rgba(247, 203, 203, 0.096);
-  padding: 0 0.3rem 0.2rem 0.2rem;
+  padding: 0 0.5rem 0.2rem 0.5rem;
   border-radius: 0.3rem;
+  gap: .2rem;
+  align-items: center;
 }
 nav > ul > li:hover {
   color: rgba(245, 238, 223, 0.938);

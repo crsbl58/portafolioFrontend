@@ -8,10 +8,11 @@ const NavBar = () => {
         <li
         className='flexRow'
           onClick={() => {
-            window.open("https://gitlab.com/z.edd36/portafolio", "_blank");
+            window.open("https://github.com/crsbl/portafolioFrontend", "_blank");
           }}
-        >{svg().iconGitLab}
-          GitLab
+        >
+        {svg().iconGit}
+          Git
         </li>
         <ul>
           <li>Contacto</li>
