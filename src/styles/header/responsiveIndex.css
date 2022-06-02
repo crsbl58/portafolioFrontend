@@ -1,0 +1,8 @@
+@media only screen and (max-width:600px){
+.divContainerSea{
+width:84.3rem;
+}
+.divContainerBeat{
+    transform: translate(0, -3rem);
+}
+}

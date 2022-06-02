@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  .divContainerDemos01 {
+    min-height: 54rem;
+  }
+.divContainerSelectionDemos00{
+  flex-flow: column nowrap;
+  align-items: center;
+}
+}

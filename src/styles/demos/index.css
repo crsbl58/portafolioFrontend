@@ -1,0 +1,92 @@
+.divContainerDemos00 {
+  padding: 2rem 0 0 0;
+  background-color: rgba(33, 52, 61, 0.507);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.divContainerTitleDemos {
+  width: 99vw;
+  background-color: rgb(31, 41, 56);
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divContainerTitleDemos > h1 {
+  text-align: center;
+  width: 10rem;
+  font-family: "Goldman", cursive;
+  font-size: 2.5rem;
+  background-color: rgb(38, 43, 49);
+
+  color: rgba(235, 235, 235, 0.644);
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border-bottom: solid 0.2rem;
+}
+
+.divContainerDemos01 {
+  display: flex;
+  overflow: hidden;
+  width: 99vw;
+}
+
+.divContainerDemos01 > section {
+  min-height: 25rem;
+  flex-shrink: 0;
+  width: 99vw;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(17, 36, 44);
+}
+.divContainerSelectionDemos00 {
+  padding: 1rem 0 1rem 0;
+  background-color: rgb(19, 28, 34);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 99vw;
+}
+
+
+.divContainerSelectiondemos01 {
+  height: 100%;
+  margin:0 .5rem  0 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color: rgb(62, 87, 107);
+  padding: .5rem .5rem .5rem .5rem;
+  cursor: pointer;
+}
+
+.divContainerSelectiondemos01 > h2 {
+  border: solid 0.1rem rgb(62, 87, 107);
+  padding: .3rem .7rem .3rem .7rem;
+  color: rgb(62, 87, 107);
+  font-family: "Goldman", cursive;
+  border-radius: 0.3rem;
+  transition:0.3s;
+ 
+}
+
+.divContainerSelectiondemos01:hover > h2{
+  color: rgb(73, 101, 124);
+  
+}
+.divContainerSelectiondemos01:hover >.divContainerIconImg{
+  transform: translate(0,-.1rem);
+  
+}
+.divContainerSvgPhotography {
+  width: 7rem;
+  height: 10rem;
+}
+
+.divContainerIconImg{
+  transition: .3s;
+  width:7rem;
+  height:7rem;
+}

@@ -1,0 +1,14 @@
+.divContainerSea{
+  margin: 12rem 0 0 0;
+  position: relative;
+    width: 69%;
+  height: 7rem;
+  background-color: rgb(161, 188, 206);
+  
+  }
+
+  #divSeaSvgHeaderContenedor{
+    margin: 14rem 0 0 0;
+width:99vw;
+background: linear-gradient(0deg, rgba(126,194,223,1) 27%, rgba(80,185,233,1) 53%, rgba(112,176,232,1) 83%);
+  }

@@ -1,0 +1,20 @@
+
+.divClouds{
+    position: absolute;
+    animation-name:identifier ;
+    animation-duration: 20s;
+    opacity: 0;
+}
+@keyframes identifier {
+   0%{
+       opacity: 0;
+   }
+    5%{opacity: 0.2;}
+
+    95%{opacity: 0;}
+
+    100%{
+        opacity: 0;
+        transform: translate(50vw);
+    }
+}

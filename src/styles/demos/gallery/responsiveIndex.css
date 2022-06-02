@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+
+
+.divContainerRevealedRoll{
+    flex-flow: row nowrap;
+}
+
+    .divContainerUploadImg{
+        flex-flow: column nowrap;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .divContainerUploadImg > input{
+margin: 0.5rem 0 0 0;
+    }
+.divContainerListImgGallery{
+    flex-flow: column-reverse;
+    align-items: center;
+}
+.divContainerImgGallery01 > img{
+    width:15.8rem;
+    height:11rem;
+}
+
+  }
+  

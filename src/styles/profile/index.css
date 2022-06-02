@@ -1,0 +1,178 @@
+.h1SkillsTitle00 {
+  background: linear-gradient(270deg, rgba(54, 150, 206, 0.295) 13%, rgba(39, 105, 136, 0.171) 85%);
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  font-size: 1.2rem;
+  color: rgb(235, 199, 158);
+  text-shadow: -0.01rem -0.01rem 0.1rem rgb(219, 217, 217);
+  font-weight: 600;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-family: monospace;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-radius: 0 0 1rem 0;
+  border-bottom: solid 0.2rem rgba(184, 192, 196, 0.39);
+border-right: solid 0.2rem rgba(184, 192, 196, 0.39);
+}
+.divContainerInfoAndWorkExperience{
+  z-index: 22;
+  padding: 0 0 1rem 0;
+  margin:0 0 1rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+ width:99vw;
+}
+
+
+.divSkillsDescription {
+  margin: 1rem 0 0 0;
+  width: 48rem;
+  display: flex;
+  flex-flow: column nowrap;
+  transition: 1s;
+  border-radius:0.3rem;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  background: linear-gradient(270deg, rgba(54, 150, 206, 0.048)  13%, rgba(43, 126, 165, 0.247) 85%);
+
+}
+
+.imgIconoSkills00{
+  margin:0 1rem 0 0;
+  width:2.5rem;
+  padding: 0 0.3rem 0 0.3rem;
+  height:2.7rem;
+ border-radius:1rem 0.2rem 0.2rem 0.2rem;
+}
+
+.divProfileContainer {
+  position: relative;
+  width: 99vw;
+padding: 15rem 0  5rem 0;  
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  animation-name: colorProfileChange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 0;
+  overflow: hidden;
+}
+@keyframes colorProfileChange {
+ 50%{
+   filter: hue-rotate(15deg);
+ } 
+}
+
+.h1TitleFirstProfile00 {
+  height: 4.3rem;
+border-radius: 0.2rem;
+  padding: 1rem 1rem 0rem 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: rgb(221, 219, 219);
+  text-align: center;
+  text-shadow: -0.05rem -0.05rem 0.1rem rgb(151, 150, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3TitleParagraphSkill01{
+    font-size: 1.5rem;
+  color: rgb(160, 184, 189);
+
+  font-weight: 700;
+  font-family: monospace;
+  background-color: rgb(15, 19, 19); 
+  padding: 0.5rem 0 1rem 1rem;
+  text-align:left;
+  border-right: solid 1rem rgb(177, 175, 175);
+}
+.ParagraphSkillcmd00{
+  padding: 1rem 0 0 1rem;
+  font-size: 1.5rem;
+  color: rgb(109, 192, 211);
+  font-weight: 700;
+  font-family: monospace;
+  background-color: darkcyan; 
+  background-color: darkcyan; 
+}
+
+.h3TitleParagraphSkill01:after{
+  content: "_";
+  animation-name:skl_00;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: darkcyan; 
+ 
+}
+
+@keyframes skl_00{
+  0%{
+      content: "";
+  }
+}
+
+.divContainerPresentationTechnology{
+  z-index: 22;
+  margin: 1rem 0 0 0;
+  display: flex;
+  width:99vw;
+background: linear-gradient(90deg, rgba(69, 103, 161, 0.920) 0%, rgba(63, 122, 185, 0.920) 35%, rgba(57, 132, 161, 0.920) 98%);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.h3TechnologyTitle{
+  font-size: 3rem;
+  font-weight: 800;
+  color:rgba(235, 235, 235, 0.644);
+  font-family: 'Goldman', cursive;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  background-color: rgba(123, 144, 184, 0.753);
+  border-bottom:solid 0.2rem rgba(201, 233, 227, 0.575);
+transition: 0.3s;
+}
+.h3TechnologyTitle:hover{transform: translate(0.1rem, 0);}
+
+
+.divIllustrationSvg{
+
+  margin: 2rem 0 0 0;  
+    width:18rem;
+ 
+    height:18rem;
+/*     display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+}
+
+.divContainerTitleProfile{
+display: flex;
+justify-content: center;
+height:9rem;
+border-radius: 0.3rem;
+flex-flow: row nowrap;  
+align-items: center;
+position:relative;
+padding: 0.2rem 1rem 0.2rem 1rem;
+}
+.divContainerFishingLine{
+  left:7rem;
+  top:-4rem;
+  position:absolute;
+  width:10rem;
+  height:10rem;
+}

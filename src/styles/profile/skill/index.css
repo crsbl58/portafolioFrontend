@@ -1,0 +1,109 @@
+.divContainerSkill00{
+    width:10rem;
+    height:10rem;
+    overflow: hidden;
+    margin:0.8rem 0.8rem 0 0.8rem;
+display: flex;
+align-items: center;
+flex-flow: column nowrap;
+border-radius:0 0 5rem 5rem;
+transition: 0.2s;
+}
+.divContainerSkills00{
+    z-index: 22;
+    width: 99vw;
+margin: 1rem 0 0 0;
+    background: linear-gradient(90deg, rgba(54, 80, 124, 0.92) 0%, rgba(62, 94, 128, 0.92) 35%, rgba(7, 111, 160, 0.920) 98%);
+transition: .3s;
+    /*
+   box-shadow:inset 0 -1rem 0.1rem 0.1rem rgb(61, 113, 172), inset 0 -2rem 0.1rem 0.1rem rgb(63, 111, 167);
+   */ 
+   display: flex;
+    flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+}
+.divContainerSkills00:hover{
+    transform: translate(0, 0.1rem);
+}
+.divSkillContainerImg00{
+    position: relative;
+    margin: 1rem 0 0 0;
+    width:5rem; height:5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-Size:5rem 5rem; 
+    background-Repeat:no-repeat;
+    background-color: rgb(182, 192, 197);
+    border-radius: 5rem;
+
+}
+@keyframes animacion_svg_habilidades_fondo00{
+    100%{transform: rotate(360deg);
+    }
+}
+.imgSvgSkillBack00{
+    position: absolute;
+    z-index: 1;
+    width: 8rem;
+    height:8rem;
+    background-repeat: no-repeat;
+    animation-name:animacion_svg_habilidades_fondo00;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+
+.imgSvgSkillFront00{
+    z-index: 2;
+    position: absolute;
+}
+
+.h1TitleSkills00{
+    font-size: 1.6rem;
+    color: rgba(212, 211, 211, 0.76);
+    text-shadow: -0.05rem -0.05rem 0.1rem rgb(124, 123, 123);
+    font-weight: 800;
+    font-family: monospace;
+    text-align: center;
+    height:2rem;
+    width: 12rem;
+background-color: rgb(63, 119, 151);
+    border-radius: 0 0 2rem 2rem;
+}
+.divContainerParagraphSkill00{
+    z-index: 22;
+    max-width:60vw; 
+    display: flex;
+    flex-flow: column nowrap;
+    margin:1rem 0 0 0;
+    overflow: hidden;
+    border-radius: 0.5rem;
+background-color:rgba(168, 168, 168, 0.92) ;
+}
+.h3TitleParagraphSkill00{
+    font-size: 1.5rem;
+    color:rgb(68, 66, 66);
+    font-weight: 640;
+    padding: 0.3rem 0 0.3rem 1rem;
+    background-color: rgba(196, 196, 196, 0.527);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.paragraphSkills00{
+    padding: 0.5rem;
+        font-size: 1.3rem;
+        text-shadow: -0.01rem -0.01rem 0.1rem rgba(219, 217, 217, 0.493);
+        font-weight: 750;
+        font-family: monospace;
+      text-align:left;
+      transition: 0.3s;
+        color: rgb(148, 196, 193);
+    }
+
+    .paragraphSkills00:hover{
+        text-decoration: underline;
+        color: rgb(118, 199, 195);
+    }

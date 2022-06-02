@@ -1,0 +1,169 @@
+.divContainerChat00 {
+  width: 99vw;
+  height: 100%;
+  padding: 0 0 1rem 0;
+}
+
+.formContainerSend {
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgb(15, 33, 44);
+  border-bottom: solid 0.1rem rgb(32, 59, 55);
+}
+
+.divContainerIdChat01 {
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 0.15rem solid rgb(62, 87, 107);
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+}
+
+.divContainerIdChat01 > h4 {
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
+  background-color: Transparent;
+  color: rgb(56, 80, 99);
+}
+
+.divContainerIdChat01 > input {
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 800;
+  width: 4rem;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 0;
+  color: rgb(189, 186, 186);
+  border-bottom: 0.15rem solid rgb(62, 87, 107);
+}
+
+.formContainerSend > button {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
+  background-color: Transparent;
+  border: solid 0.1rem rgb(54, 77, 95);
+  color: rgb(56, 80, 99);
+  border-radius: 0.3rem;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.formContainerSend  > input {
+  margin: 0 0 0 0.5rem;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 800;
+  width: 15rem;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 0;
+  color: rgb(189, 186, 186);
+  border: 0.1rem solid rgb(53, 77, 97);
+  background-color: rgba(20, 57, 71, 0.233);
+}
+
+.divContainerUsers {
+  min-height: 17.8rem;
+  background-color: rgba(187, 184, 177, 0.212);
+  border-radius: 0.2rem 0 0 0.2rem;
+  justify-content: start;
+overflow:scroll;
+padding: .2rem 0 0 .2rem;
+border: solid .2rem rgb(37, 41, 54);
+}
+
+.divContainerUsers::-webkit-scrollbar-thumb {
+
+  background-color: rgb(170, 187, 206);
+  border-radius: 0.2rem;
+  transition: 1s;
+  box-shadow: -0.5vh 0vh 1vh 0.0vh rgba(93, 111, 114, 0.075);
+}
+
+.divContainerUsers::-webkit-scrollbar {
+width: .5rem;   
+height: 0;   
+transition: 1s;
+}
+
+.divContainerUsers >h4{
+  font-size: 1.1rem;
+  font-family:monospace;
+  
+  color: rgb(99, 129, 119);
+  width:100%;
+  background-color:rgba(95, 158, 160, 0.103);
+  width:4rem;
+  overflow: hidden;
+  text-align: left;
+  padding: 0 0 0 .3rem;
+}
+.divContainerTextUsers00 {
+  width: 18rem;
+  height: 17rem;
+
+  border-radius: 0 .2rem .2rem 2.5rem;
+  overflow: scroll;
+  gap: .5rem;
+  padding:.5rem .5rem .5rem .4rem;
+  border-left: solid .1rem rgb(91, 95, 122);
+  border-bottom: solid .1rem rgb(91, 95, 122);
+}
+
+.divContainerTextUsers00::-webkit-scrollbar-thumb {
+border: solid .1rem rgba(170, 187, 206, 0.521);
+
+  border-radius: .5rem;
+  transition: 1s;
+  box-shadow: -0.5vh 0vh 1vh 0.0vh rgba(93, 111, 114, 0.075);
+
+
+}
+
+.divContainerTextUsers00::-webkit-scrollbar {
+width: .7rem;   
+height: 0;   
+transition: 1s;
+}
+
+
+
+.divContainerTextUsers01 {
+align-self: flex-start;
+border:solid .1rem rgb(134, 134, 138);
+padding: .2rem .4rem .4rem 1.2rem;
+border-radius: .2rem .2rem .2rem 2rem;
+}
+
+.divContainerTextUsers01 > h4 {
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+}
+.divContainerTextUsers01 > h4:last-child {
+  text-align: left;
+  color: rgb(121, 128, 131);
+  word-break: break-word;
+}
+
+.divContainerTextUsers01 > h4:first-child {
+  color: rgb(85, 122, 136);
+}
+.divContainerRoom {
+margin: 1rem 0 0 0;
+  justify-content: center;
+  align-items: center;
+}

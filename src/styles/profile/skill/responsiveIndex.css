@@ -1,0 +1,13 @@
+
+@media only screen and (max-width:600px){
+
+    .divSkillsDescription{
+max-width:90vw;
+}
+.divContainerParagraphSkill00{
+    max-width:95vw;  
+}
+.divContainerSkills00{
+    flex-flow: column nowrap;
+}
+}

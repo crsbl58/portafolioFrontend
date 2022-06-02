@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+  .divContainerOptionGraphics00 {
+    flex-flow: column nowrap;
+    padding: 1rem 0 0 0;
+  }
+
+  .divContainerGraphics01 {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .divGraphic00 {
+      width: 95vw;
+  }
+}

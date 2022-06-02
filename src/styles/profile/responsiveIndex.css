@@ -1,0 +1,35 @@
+@media only screen and (max-width:600px){
+.h3TechnologyTitle{
+  margin: 1rem 0 0 0;
+    font-size: 2rem;
+    font-weight: 800;
+    color:rgba(235, 235, 235, 0.644);
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+}
+.divContainerPresentationTechnology{
+flex-flow: column nowrap;
+}
+.divContainerTitleProfile{
+height: 22rem;
+flex-flow: column nowrap;
+}
+
+
+.h1Title01{
+    font-size: 2rem;
+    padding: 0 0 0 0.3rem;
+}
+  .h1Title02{
+    padding: 2;
+    margin: 0;
+    font-size: 2rem;
+    border-radius:  0.3rem ;
+  }
+
+  .divContainerFishingLine{
+    left:5rem;
+    top:-5rem;
+  }
+
+}

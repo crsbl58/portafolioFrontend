@@ -1,0 +1,11 @@
+#root, body, html{
+  overflow: hidden;
+  width:100%;
+  height:100%;
+}
+
+*{
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,96 @@
+.divBubbles00 {
+  opacity: 0;
+  position: absolute;
+  z-index: 20;
+}
+.divBubbles01 {
+  position: absolute;
+  border-radius: 50%;
+  border: solid 0.1rem rgba(201, 229, 255, 0.116);
+  background-color: rgba(116, 196, 228, 0.329);
+  animation-name: movementBubbles01;
+  animation-timing-function: linear;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movementBubbles01 {
+  50% {
+    transform: translate(0.15rem, 0) scale(1.1);
+  }
+}
+
+@keyframes movementBubbles00 {
+  0.2% {
+    transform: skew(0deg, 0deg);
+    opacity: 1;
+  }
+  0.4% {
+    transform: translate(0, -0.5rem) skew(25deg, 25deg);
+  }
+  0.6% {
+    transform: translate(0, -0.5rem) skew(0deg, 0deg);
+  }
+  0.8% {
+    transform: translate(0, -0.5rem) skew(-25deg, -25deg);
+  }
+  1% {
+    transform: translate(0, -1rem) skew(0deg, 0deg);
+  }
+  80%{ transform: translate(0, -48.5rem) skew(0deg, 00deg);}
+
+
+  99% {
+    transform: translate(0, -58.5rem) skew(0deg, 00deg);
+  }
+  99.2% {
+    transform: translate(0, -58.5rem) skew(-25deg, -25deg);
+  }
+  99.4% {
+    transform: translate(0, -59.5rem) skew(0deg, 0deg);
+  }
+  99.6% {
+    transform: translate(0, -59.5rem) skew(25deg, 25deg);
+  }
+  100% {
+    transform: translate(0, -59.5rem) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+@keyframes movementBubblesresponsive00 {
+  0.2% {
+    transform: skew(0deg, 0deg);
+    opacity: 1;
+  }
+  0.4% {
+    transform: translate(0, -0.5rem) skew(25deg, 25deg);
+  }
+  0.6% {
+    transform: translate(0, -0.5rem) skew(0deg, 0deg);
+  }
+  0.8% {
+    transform: translate(0, -0.5rem) skew(-25deg, -25deg);
+  }
+  1% {
+    transform: translate(0, -1rem) skew(0deg, 0deg);
+  }
+  80%{ transform: translate(0, -135.5rem) skew(0deg, 00deg);}
+
+
+  99% {
+    transform: translate(0, -145.5rem) skew(0deg, 00deg);
+  }
+  99.2% {
+    transform: translate(0, -145.5rem) skew(-25deg, -25deg);
+  }
+  99.4% {
+    transform: translate(0, -146.5rem) skew(0deg, 0deg);
+  }
+  99.6% {
+    transform: translate(0, -146.5rem) skew(25deg, 25deg);
+  }
+  100% {
+    transform: translate(0, -146.5rem) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}

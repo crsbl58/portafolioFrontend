@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+   .formContainerSend {
+       flex-flow: column nowrap;
+       justify-content: right;
+   }
+   .divContainerTextUsers00{
+       width:78vw;
+   }
+   .divContainerUsers{
+    width:15vw;  
+   }
+  }
+  

@@ -1,0 +1,12 @@
+@media only screen and (max-width:600px){
+.divContainerWorkExperience01{
+    max-width:85vw;}
+
+    .divContainerWorkExperience03{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .h3TitleworkExperience00{
+        min-width:100%;
+    }
+    }

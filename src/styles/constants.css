@@ -1,0 +1,25 @@
+
+.animationCountTiming{
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.flexRow{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flexRowWrap{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flexColumn{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.flexColumnWrap{
+    display: flex;
+    flex-flow: column wrap;
+}

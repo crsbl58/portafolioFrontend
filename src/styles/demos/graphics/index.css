@@ -1,0 +1,207 @@
+.divContainerGraphics00 {
+  width: 99vw;
+  height: 100%;
+  padding: 0 0 1rem 0;
+}
+.divContainerGraphics01 {
+  padding: 1rem 0 0 0;
+  width: 99vw;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.divContainerOptionGraphics01 {
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 0.15rem solid rgb(62, 87, 107);
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+}
+
+.divContainerOptionGraphics01 > h4 {
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
+  background-color: Transparent;
+  color: rgb(56, 80, 99);
+}
+.divContainerOptionGraphics01 > input {
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 800;
+  width: 4rem;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 0;
+  color: rgb(189, 186, 186);
+  border-bottom: 0.15rem solid rgb(62, 87, 107);
+}
+
+
+.divContainerOptionGraphics01 > input::-webkit-outer-spin-button,
+.divContainerOptionGraphics01 > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.divContainerOptionGraphics01 > input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.divContainerOptionGraphics00 >input::-webkit-outer-spin-button,::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.divContainerOptionGraphics00 >input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.divContainerOptionGraphics00 {
+  background-color: rgb(15, 33, 44);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: solid 0.1rem rgb(32, 59, 55);
+}
+
+.divContainerOptionGraphics00 > button {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
+  background-color: Transparent;
+  border: solid 0.1rem rgb(54, 77, 95);
+  color: rgb(56, 80, 99);
+  border-radius: 0.3rem;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 1rem 0 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.divContainerOptionGraphics00 > button:hover {
+}
+.divContainerOptionGraphics00 > input {
+  margin: 0 0 0 0.5rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 800;
+  width: 8rem;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 0;
+  color: rgb(189, 186, 186);
+  border-bottom: 0.15rem solid rgb(62, 87, 107);
+}
+.divContainerOptionGraphics00 > input::placeholder {
+  color: rgba(83, 120, 150, 0.568);
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: 500;
+}
+.divGraphic00 {
+  padding: 0.5rem;
+  border-bottom: solid 0.1rem rgb(35, 48, 59);
+  border-left: solid 0.1rem rgb(35, 48, 59);
+  width: 20rem;
+  min-height: 16.1rem;
+  overflow: hidden;
+}
+
+.divGraphic02 {
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.divGraphic02 > h4 {
+  font-family: "Courier New", Courier, monospace;
+  writing-mode: vertical-lr;
+  color: rgb(130, 131, 107);
+  height: 3.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+.divGraphicTower {
+  width: 0.7rem;
+  background: rgb(62, 87, 107);
+  animation-name: homeGraphicTower;
+  animation-timing-function: linear;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes homeGraphicTower {
+  0%{height: 0rem;}
+}
+
+.divGraphic01 {
+  margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+  align-items: flex-end;
+}
+
+.divContainerListDataGraphics {
+  gap: 0.5rem;
+  transition: 0.1s;
+}
+
+.divContainerListDataGraphics:hover {
+  background-color: rgb(37, 55, 56);
+}
+.divContainerListDataGraphics:hover > h4:first-child {
+  color: transparent;
+}
+
+.divContainerListDataGraphics:hover > h4 {
+  text-decoration: underline;}
+
+
+.divContainerListDataGraphics:hover > h4:first-child:before {
+  color: rgb(161, 151, 59);
+  content: "Eliminar";
+
+}
+
+.divContainerListDataGraphics > h4:first-child {
+  width: 6rem;
+  text-align: left;
+}
+.divContainerListDataGraphics > h4:last-child {
+  width: 3rem;
+}
+
+.divContainerListDataGraphics > h4 {
+
+  overflow: hidden;
+  color: rgb(130, 131, 107);
+  text-align: center;
+  width: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.divContainerTitleGraphicQuantityTable {
+  gap: 0.5rem;
+  margin: 0 0 0.2rem 0;
+}
+
+.divContainerTitleGraphicQuantityTable > h4 {
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(161, 161, 151);
+  background-color: rgb(27, 42, 43);
+  border-radius: 0.2rem;
+  text-align: center;
+  width: 3rem;
+}
+
+.divContainerTitleGraphicQuantityTable > h4:first-child {
+  width: 6rem;
+  text-align: left;
+}

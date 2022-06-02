@@ -1,0 +1,121 @@
+.divContainerApiNasa00 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 99vw;
+}
+
+
+
+
+.divContainerStateApiNasa00 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.divContainerApinasa01 > img {
+  margin: 0 1rem 0 0;
+  width: 30rem;
+  height: auto;
+  background: 100% 100%;
+  border: solid 0.1rem rgb(62, 87, 107);
+  border-radius: 0.3rem;
+}
+
+.divContainerApinasa01 {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+}
+
+.divContainerApinasa01 > h2 {
+  color: white;
+}
+.divContainerApinasa02 {
+  width: 100%;
+  padding: 0 0 0.5rem 0;
+  justify-content: space-around;
+}
+
+.divContainerApinasa02 > h2 {
+  font-size: 2rem;
+  width: 60%;
+  font-family: "Goldman", cursive;
+  color: rgb(133, 161, 184);
+}
+
+.divContainerApinasa02 > h3 {
+  width: 30%;
+  font-family: "Goldman", cursive;
+  color: rgb(78, 105, 128);
+}
+
+.divContainerApinasa03> p{
+    margin: 0.5rem 0 0 0;
+    color:rgb(133, 161, 184);
+    font-family: "Goldman", cursive;    
+}
+
+.divContainerOptionApiNasa{
+  background-color: rgb(15, 33, 44);
+  width:99vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 0.1rem rgb(32, 59, 55);
+}
+
+
+.divContainerOptionApiNasa > button{
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
+  background-color: Transparent;
+  border: solid 0.1rem rgb(54, 77, 95);
+  color: rgb(56, 80, 99);
+  border-radius: 0.3rem;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 1rem 0 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.divContainerOptionApiNasa> button:hover{
+  transform: translate(.1rem,0);
+  color: rgb(80, 113, 141);
+  border: solid 0.1rem rgb(78, 111, 138);
+}
+
+
+.divContainerOptionApiNasa> button:after{
+  opacity: 0;
+  position: absolute;
+  color: rgb(44, 63, 78);
+  top: 0.4rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  content: ">";
+  transition: 0.3s;
+  transform: translate(-3rem, 0); 
+}
+.divContainerOptionApiNasa> button:before{
+  opacity: 0;
+  position: absolute;
+  color: rgb(44, 63, 78);
+  top: 0.4rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  content: ">";
+  transition: 0.3s;
+  transform: translate(-3rem, 0);
+}
+.divContainerOptionApiNasa> button:hover:after{
+  opacity: 1;
+  transform: translate(0, 0);
+  color: rgb(91, 145, 155);
+}
+.divContainerOptionApiNasa> button:hover:before{
+  opacity: 1;
+  transform: translate(-.80rem, 0);
+  color: rgb(91, 145, 155);
+}

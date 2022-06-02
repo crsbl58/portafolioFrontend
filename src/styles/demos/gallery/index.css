@@ -1,0 +1,203 @@
+.divContainerGallery01 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+}
+.divContainerListImgGallery {
+  padding: 0 0 1rem 0;
+  width: 90vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+
+.divContainerImgGallery00 {
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.divContainerImgGallery00 > h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 100%;
+  margin: 0.3rem 0 0.5rem 0;
+  color: rgb(107, 133, 156);
+  font-family: "Goldman", cursive;
+  background-color: rgb(25, 60, 73);
+ max-width: 12.9rem;
+ overflow: hidden;
+}
+.divContainerImgGallery01 {
+  position: relative;
+  border: 0;
+}
+
+.ImgGalleryViewBase64 {
+  background-color: rgb(19, 19, 22);
+  box-shadow: inset 0 0 0.9rem 0.1rem rgb(24, 22, 22);
+  width: 12.8rem;
+  height: 8rem;
+  opacity: 0.7;
+  filter:blur(0.15rem);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ImgGalleryViewBase64:hover {
+  opacity: 1;
+}
+
+.divContainerRevealedRoll {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem rgb(62, 87, 107);
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+
+.divPackageRoll {
+  width: 18rem;
+  position: relative;
+  height: 27rem;
+}
+
+.divContainerGallery00 {
+  display: flex;
+  flex-flow: row nowrap;
+  transition: 0.3s;
+}
+
+.buttonViewImgListGallery {
+  color: rgba(201, 201, 201, 0.575);
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0%;
+  background-color: rgba(24, 23, 23, 0.589);
+  border: 0;
+  
+  transition: 0.3s;
+  cursor: pointer;
+}
+.buttonViewImgListGallery:hover {
+  color: rgba(201, 201, 201, 0.747);
+  background-color: rgba(41, 41, 41, 0.705);
+}
+.buttonDeleteImgListGallery {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  color: rgba(201, 201, 201, 0.575);
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  background-color: rgba(24, 23, 23, 0.589);
+  border: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.buttonDeleteImgListGallery:hover {
+  color: rgba(201, 201, 201, 0.747);
+  background-color: rgba(41, 41, 41, 0.705);
+}
+
+.divContainerUploadImg {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 99vw;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgb(15, 33, 44);
+  border-bottom: solid 0.1rem rgb(32, 59, 55);
+}
+.divContainerUploadImg > h3 {
+  margin: 0.5rem 0 0.5rem 0;
+  color: rgb(91, 116, 138);
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+}
+
+.divContainerUploadImg > input::placeholder {
+  color: rgba(83, 120, 150, 0.568);
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+.divContainerUploadImg > button {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
+  background-color: Transparent;
+  position: relative;
+  border: solid 0.1rem rgb(58, 83, 102);
+  color: rgb(58, 84, 104);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.divContainerUploadImg > button:hover {
+  color: rgb(88, 122, 150);
+  border: solid 0.1rem rgb(84, 117, 145);
+  transform: translate(0,-.1rem);
+  text-shadow: 0.1rem 0.1rem 0.3rem 0.3rem red;
+}
+
+.divContainerUploadImg > button:before {
+  opacity: 0;
+  position: absolute;
+  color: rgb(44, 63, 78);
+  top: 0.4rem;
+  left: 1rem;
+  font-size: 1.5rem;
+  content: ">";
+  transition: 0.3s;
+  transform: translate(0, -2rem);
+}
+.divContainerUploadImg > button::after {
+  opacity: 0;
+  position: absolute;
+  color: rgb(44, 63, 78);
+  top: 0.4rem;
+  left:10.1rem;
+  font-size: 1.5rem;
+  content: "<";
+  transition: 0.3s;
+ transform: translate(0, 2rem); 
+}
+.divContainerUploadImg > button:hover::before {
+  opacity: 1;
+  transform: translate(0, 0);
+  color: rgb(91, 145, 155);
+}
+.divContainerUploadImg > button:hover::after {
+  opacity: 1;
+  transform: translate(0, 0);
+  color: rgb(91, 145, 155);
+}
+
+.divContainerUploadImg > input {
+  margin: 0 0 0 0.5rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Goldman", cursive;
+  font-weight: 800;
+  width: 8rem;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: 0;
+  color: rgb(189, 186, 186);
+  border-bottom: 0.15rem solid rgb(62, 87, 107);
+}

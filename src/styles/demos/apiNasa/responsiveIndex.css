@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .divContainerApinasa01 {
+    flex-flow: column;
+    padding: 0;
+    align-items: center;
+  }
+  .divContainerApinasa01 > img{
+      margin:0 0 1rem 0;
+      width:96vw;
+
+    }
+
+    .divContainerApinasa03 {
+        padding: 0 .5rem 1rem .5rem;
+    }
+}

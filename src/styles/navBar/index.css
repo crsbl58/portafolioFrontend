@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap");
+
+nav {
+  z-index: 30;
+  left: 0vw;
+  position: absolute;
+  /*     background-color: rgba(49, 95, 136, 0.233); */
+  background: linear-gradient(
+    90deg,
+    rgba(49, 95, 136, 0.233) 55%,
+    Transparent 80%
+  );
+  display: flex;
+  flex-flow: row nowrap;
+  border-radius: 0 0 0 0;
+  padding: 0.5rem 8rem 0.5rem 0rem;
+}
+
+nav > ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0 .5rem 0 .5rem;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Lobster", cursive;
+  transition: 0.3s;
+  background-color: rgba(247, 203, 203, 0.096);
+  padding: 0 0.3rem 0.2rem 0.2rem;
+  border-radius: 0.3rem;
+}
+nav > ul > li:hover {
+  color: rgba(245, 238, 223, 0.938);
+  background-color: rgba(247, 193, 193, 0.301);
+
+}
+
+nav > ul > ul {
+  list-style-type: none;
+  position: relative;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+
+nav > ul > ul > li {
+  list-style-type: none;
+  cursor: pointer;
+  background-color: rgba(203, 230, 247, 0.096);
+  padding: 0 0.4rem 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  transition: .3s;
+}
+nav > ul > ul > li:hover {
+  color: rgba(245, 238, 223, 0.938);
+  background-color: rgba(203, 230, 247, 0.247);
+}
+
+nav > ul > ul:hover {
+  color: rgba(245, 238, 223, 0.938);
+}
+
+nav > ul > ul > ul {
+  position: absolute;
+  left:0;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0.5rem;
+}
+nav > ul > ul > ul > li {
+  white-space: nowrap;
+  background: linear-gradient(90deg, Transparent 5%, rgba(49, 95, 136, 0.322) 19%, rgba(49, 95, 136, 0.356) 66%, Transparent 95%);
+  list-style-type: none;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  color: rgba(205, 223, 221, 0.938);
+  font-family: "Lobster", cursive;
+  font-size: 1.7rem;
+}
+
+nav > ul > ul:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+.h1Title00 {
+  font-family: "Aladin", cursive;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: rgb(189, 168, 140);
+  text-shadow: 0.05rem 0.05rem 0.1rem rgb(104, 105, 119);
+}
+
+.h1Title01 {
+  font-family: "Goldman", cursive;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(103, 176, 224);
+  text-shadow: 0.05rem 0.05rem 0.1rem rgb(104, 105, 119);
+}
+.h1Title02 {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  font-size: 1.9rem;
+  font-weight: 800;
+  font-family: "Goldman", cursive;
+  color: rgb(188, 214, 210);
+  background: rgb(49, 54, 58);
+  border-radius: 1rem;
+  text-shadow: -0.05rem -0.05rem 0.1rem rgb(151, 150, 150);
+  text-align: center;
+}
+
+.divContainerPresent {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.DivContainerPresentation {
+  padding: 4rem 0 0 0;
+  z-index: 3;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.DivContainerTitle {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.h1Title00 {
+  font-family: "Aladin", cursive;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgb(189, 168, 140);
+  text-shadow: 0.05rem 0.05rem 0.1rem rgb(104, 105, 119);
+}
+nav > ul > ul > ul > li:first-child:before {
+  content: "Correo: ";
+  color: rgb(138, 195, 218);
+}
+
+nav > ul > ul > ul > li:last-child:before {
+  content: "Telefono: ";
+  color: rgb(138, 195, 218);
+}

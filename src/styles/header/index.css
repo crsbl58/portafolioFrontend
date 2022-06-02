@@ -1,0 +1,55 @@
+.divContainerSea{
+    width:100%;
+  display: flex;
+  align-items:center;
+    height: auto ;
+    position: relative;
+    z-index: 0;
+}
+.divContainerSky{
+    width:99vw;
+    height: 25rem;
+    position: relative;
+}
+.divContainerMoon{
+   top:2rem;
+    left:40vw;
+    width:5rem;
+    height: 5rem;
+    position: absolute;
+    box-shadow: 0 0 0.3rem 0.2rem rgba(255, 255, 255, 0.247);
+    border-radius: 50%;
+    animation-name: moonLight;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes moonLight {
+    50%{
+        box-shadow: 0 0 0.3rem 0.2rem rgba(224, 224, 224, 0.404);
+    }
+}
+
+
+
+.divContainerBeat{
+    width:99vw;
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+  transform: translate(0, -4rem);
+    left:0;
+    position: absolute;
+    z-index: 15;
+}
+
+header{
+
+    background-image: url('../../img/stars.png');
+    width:99vw;
+    min-height:10rem;
+    
+/*     background: linear-gradient(180deg, rgb(19, 28, 39) 16%, rgb(42, 58, 65) 47%, rgb(47, 88, 122) 90%); */
+    /* background: linear-gradient(180deg, rgb(204, 220, 240) 16%, rgb(160, 218, 240) 47%, rgb(86, 160, 221) 90%); */
+  overflow: hidden;
+  }
