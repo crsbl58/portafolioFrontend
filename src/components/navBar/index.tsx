@@ -18,7 +18,6 @@ const NavBar = () => {
           <li>Contacto</li>
           <ul>
             <li>z.edd36@gmail.com</li>
-            <li>+569 4869 7889</li>
           </ul>
         </ul>
       </ul>
