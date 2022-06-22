@@ -6,6 +6,7 @@ import "../../styles/demos/index.css";
 import "../../styles/demos/responsiveIndex.css";
 import ApiNasa from "./apiNasa/index";
 import svg from "../../img/svg/index";
+import { Outlet, useNavigate, useLocation  } from "react-router-dom";
 
 const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
   const [stateDemos, setStateDemos] = useState<any>({
@@ -16,25 +17,28 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
     {
       name: "Imágenes",
       iconComponent: svg().iconGallery,
-      components: 0,
+      link: "Gallery",
     },
     {
       name: "Conexion Api",
       iconComponent: svg().iconApi,
-      components: 1,
+      link: "Api",
     },
     {
       name: "Graficos",
       iconComponent: svg().iconGraphic,
-      components: 2,
+      link: "Graphics",
     },
     {
-      name: "Sala Chat",
+      name: "Chat",
       iconComponent: svg().iconChatRoom,
-      components: 3,
+      link: "Chat",
     },
   ]);
 
+  let navigate = useNavigate();
+let location = useLocation();
+console.log(location);
   return (
     <div className="divContainerDemos00">
       <div className="divContainerTitleDemos">
@@ -42,19 +46,12 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
       </div>
       <div className="divContainerSelectionDemos00">
         {stateListDemos.map((listDemo: any, index) => (
-          <div
-            className="divContainerSelectiondemos01"
-            onClick={() => {
-              setStateDemos({
-                indexSelected: listDemo.components,
-              });
-
-
-            }}
-          >
+          <div className="divContainerSelectiondemos01" onClick={() => {
+            navigate(listDemo.link);
+          }}>
             <h2
               style={
-                stateDemos.indexSelected == index
+                location.pathname.slice(1) == listDemo.link
                   ? {
                       color: "rgb(128, 114, 88)",
                       border: "solid 0.1rem rgb(78, 113, 141)",
@@ -70,17 +67,10 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
       </div>
       <div className="divContainerDemos01">
         <section>
-          {stateDemos.indexSelected === 0 ? (
-            <Gallery
-           /*    hookSetStateApp={hookSetStateApp}
-              hookstateApp={hookstateApp} */
-            />
-          ) : (
-            <React.Fragment />
-          )}
-          {stateDemos.indexSelected === 1 ? <ApiNasa /> : <React.Fragment />}
-          {stateDemos.indexSelected === 2 ? <Graphics /> : <React.Fragment />}
-          {stateDemos.indexSelected === 3 ? <Chat /> : <React.Fragment />}
+       {<Outlet
+       context={[hookSetStateApp, hookstateApp]}
+       
+       />}
         </section>
       </div>
     </div>

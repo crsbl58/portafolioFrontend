@@ -6,7 +6,7 @@ import React, { FC, useState } from "react";
 import Profile from "./components/profile/index";
 import NavBar from "./components/navBar/index";
 import Footer from "./components/footer";
-import Demos from "./components/demos/indexcopy";
+import Demos from "./components/demos";
 
 const App: FC = () => {
   const [stateDayNight, setStateDayNight] = useState<boolean>(false);
