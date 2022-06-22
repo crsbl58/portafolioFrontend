@@ -1,10 +1,13 @@
 import React, { useRef, useState } from "react";
+import { useOutletContext } from "react-router-dom";
 import svg from "../../../img/svg";
 import mocks from "../../../mocks/index";
 import "../../../styles/demos/gallery/index.css";
 import "../../../styles/demos/gallery/responsiveIndex.css";
 
-const Gallery = ({ hookstateApp, hookSetStateApp }: any) => {
+const Gallery = () => {
+  const [hookSetStateApp, hookstateApp]: any = useOutletContext();
+console.log(hookstateApp);
   const [stateListGallery, setStateListGallery] = useState([
     {
       name: "empuñadura",
@@ -92,7 +95,7 @@ const Gallery = ({ hookstateApp, hookSetStateApp }: any) => {
                     <button
                       className="buttonViewImgListGallery"
                       onClick={() => {
-                        hookSetStateApp({
+                   hookSetStateApp({
                           ...hookstateApp,
                           modelImgStatus: true,
                           base64Img: base64,

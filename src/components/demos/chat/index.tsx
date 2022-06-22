@@ -71,7 +71,7 @@ useEffect(()=>{
         }}
       >
         <div className="divContainerIdChat01 flexRow">
-          <h4>Id</h4>
+          <h4>Usuario</h4>
           <input
             value={inputStates.id}
             required
@@ -88,11 +88,6 @@ useEffect(()=>{
       </form>
 
       <div className="divContainerRoom flexRow">
-     {/*    <div className="divContainerUsers flexColumn">
-          {stateUsers.map((listUsers: any) => (
-            <h4>{listUsers.id}</h4>
-          ))}
-        </div> */}
         <div className="divContainerTextUsers00 flexColumn" ref={containerRef}>
           {stateTxtUsers.map((listTextUsers: any) => (
             <div className="divContainerTextUsers01 flexColumn">
