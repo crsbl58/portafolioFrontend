@@ -103,8 +103,8 @@ const Profile: FC<propsProfile> = ({ hookStateDayNight }) => {
           <h3 className="h3TitleParagraphSkill00">Símbolo del sistema</h3>
 
           <p className="h3TitleParagraphSkill01">
-            C:\Cristobal{">"} git, socketIo, flexBox, grid, typeScript, hooks, context,
-            redux, styled
+            C:\Cristobal{">"} git, reactRouterDom, flexBox, grid, typeScript, hooks, context,
+            redux, styled, socketIo.
           </p>
         </div>
       </div>
