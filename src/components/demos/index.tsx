@@ -30,7 +30,7 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
       link: "Graphics",
     },
     {
-      name: "Chat",
+      name: "Chat público",
       iconComponent: svg().iconChatRoom,
       link: "Chat",
     },
