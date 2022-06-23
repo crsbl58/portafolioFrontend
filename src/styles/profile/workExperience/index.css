@@ -17,9 +17,9 @@ background: linear-gradient(270deg, rgba(54, 150, 206, 0.11) 13%, rgba(43, 126, 
 }   
 
 .h3SkillWorkExperience{
-    color: white;
+    color: rgb(226, 224, 205);
     margin: 0.2rem 0.3rem 0.2rem 0.3rem;
-    border: solid 1px rgb(192, 188, 188);
+    border: solid .1rem rgb(114, 138, 145);
     border-radius: 1rem;
     padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
@@ -60,7 +60,7 @@ align-items: center;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     color: rgb(148, 196, 193);
     font-family: monospace;
-    background-color: rgb(74, 134, 184);
+    background-color: rgb(65, 101, 131);
     border-radius: 0rem 0 0 0.3rem;
 }
 
@@ -82,8 +82,7 @@ transition: .3s;
 
 .divContainerSkillWorkExperience{
 width:100%;
-background-color: rgb(110, 153, 189);
-
+background: linear-gradient(90deg, rgb(67, 108, 143) 11%, transparent 77%);
     display:flex;
     flex-flow: row wrap;
 border-radius:0 0 0.4rem 0.4rem ;

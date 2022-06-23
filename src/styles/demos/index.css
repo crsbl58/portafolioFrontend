@@ -60,7 +60,13 @@
   color: rgb(62, 87, 107);
   padding: .5rem .5rem .5rem .5rem;
   cursor: pointer;
+  transition:.3s;
+  border-bottom:solid .1rem rgb(46, 78, 99);
 }
+.divContainerSelectiondemos01:hover {
+transform: translate(0, -.1rem);
+}
+
 
 .divContainerSelectiondemos01 > h2 {
   border: solid 0.1rem rgb(62, 87, 107);

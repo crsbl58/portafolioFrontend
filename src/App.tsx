@@ -43,9 +43,9 @@ let navegate = useNavigate();
 
   useEffect(()=>{navegate("Gallery")},[])
   return (
-    <div className="divContainerApp">
+    <div  className="divContainerApp">
       <NavBar />
-      <div className="App">
+      <div  className="App">
         {stateApp.modelImgStatus ? <ModalImg /> : <React.Fragment />}
         <Header hookStateDayNight={stateDayNight} />
         <Profile hookStateDayNight={stateDayNight} />
