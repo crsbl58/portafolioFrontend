@@ -32,43 +32,6 @@
 
 }
 
-.divContainerSpinner {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(95, 92, 92);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.divSpinner00 {
-  padding: 0.2rem;
-  border-radius: 50%;
-  width: 15rem;
-  height: 15rem;
-  border-top: solid 0.5rem rgb(136, 134, 134);
-  animation-duration: 2s;
-  animation-name: spinnerMovement;
-}
-.divSpinner02 {
-  padding: 0.2rem;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  border-bottom: solid 0.5rem rgb(134, 134, 93);
-  animation-duration: 2s;
-  animation-name: spinnerMovement;
-}
-.divSpinner01 {
-  padding: 0.2rem;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  border-left: solid 0.5rem rgb(73, 109, 109);
-  animation-duration: 2s;
-  animation-name: spinnerMovement;
-}
 
 @keyframes spinnerMovement {
   50% {

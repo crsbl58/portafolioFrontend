@@ -1,10 +1,10 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "../../styles/demos/index.css";
 import "../../styles/demos/responsiveIndex.css";
 import svg from "../../img/svg/index";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 
-const Demos = ({ hookstateApp, hookSetStateApp, Spinner }: any) => {
+const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
   const [stateDemos, setStateDemos] = useState<any>({
     indexSelected: 0,
   });
@@ -66,7 +66,7 @@ const Demos = ({ hookstateApp, hookSetStateApp, Spinner }: any) => {
       </div>
       <div className="divContainerDemos01">
         <section>
-          {<Outlet context={[hookSetStateApp, hookstateApp, Spinner]} />}
+          {<Outlet context={[hookSetStateApp, hookstateApp]} />}
         </section>
       </div>
     </div>

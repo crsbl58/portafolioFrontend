@@ -3,48 +3,37 @@ import url from "../../../network/url/index";
 import { useEffect, useState } from "react";
 import "../../../styles/demos/apiNasa/index.css";
 import "../../../styles/demos/apiNasa/responsiveIndex.css";
+import Spinner from "../../spinner/index";
+
 import React from "react";
 
 const ApiNasa = () => {
   const [stateApi, setStateApi] = useState<any>([]);
+  const [stateSpinner, setStateSpinner] = useState(false);
 
   useEffect(() => {
-    request().fetchUrl(url().apiNasa, setStateApi);
+    setStateSpinner(true);
+    request().fetchUrl(url().apiNasa, setStateApi, setStateSpinner);
   }, []);
 
   return (
-    <div className="divContainerApiNasa00">
-     <div className="divContainerOptionApiNasa">
-      <button
-        onClick={() => {
-          request().fetchUrl(url().apiNasa, setStateApi);
-        }}
-      >
-        Siguiente información
-      </button>
+    <div className="divContainerApiNasa00 animationDemos">
+      <div className="divContainerOptionApiNasa">
+        <button
+          onClick={() => {
+          
+            request().fetchUrl(url().apiNasa, setStateApi, setStateSpinner);
+            setStateSpinner(true);
+          }}
+        >
+          Siguiente información
+        </button>
       </div>
-      {stateApi.map((dataApi: any) => {
-        /*   
-      let Img_rdpi00 = styled.div`
-          width: 22rem;
-          height: 14rem;
-          background-image: url(${rtds.url});
-          background-size: 22rem 14rem;
-          background-repeat: no-repeat;
-          border-radius: 0.1rem;
-          animation-name: anmcpd00;
-          animation-duration: 1s;
-          animation-iteration-count: 1;
-          @keyframes anmcpd00 {
-            0% {
-              opacity: 0;
-            }
-          }
-        `; */
-
+      {stateSpinner ? <Spinner /> : <React.Fragment />}
+      {stateSpinner ? <React.Fragment /> : stateApi.map((dataApi: any) => {
         return (
           <React.Fragment>
-            <div className="divContainerStateApiNasa00">
+            <div className="divContainerStateApiNasa00 animationTextStart">
               <div className="flexRow divContainerApinasa01">
                 <img src={dataApi.url}></img>
 
@@ -62,7 +51,8 @@ const ApiNasa = () => {
             </div>
           </React.Fragment>
         );
-      })}
+      })
+      }
     </div>
   );
 };

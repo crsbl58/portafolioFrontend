@@ -153,6 +153,8 @@ border-radius: .2rem .2rem .2rem 2rem;
   font-size: 1.1rem;
   font-family: "Goldman", cursive;
 }
+
+
 .divContainerTextUsers01 > h4:last-child {
   text-align: left;
   color: rgb(121, 128, 131);

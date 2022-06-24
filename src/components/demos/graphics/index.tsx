@@ -40,7 +40,7 @@ const Graphics = () => {
   };
 
   return (
-    <div className="divContainerGraphics00 flexColumn">
+    <div className="divContainerGraphics00 flexColumn animationDemos">
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -166,7 +166,7 @@ const Graphics = () => {
 
             return (
               <div
-                className="divContainerListDataGraphics flexRow"
+                className="divContainerListDataGraphics flexRow animationTextStart"
                 onClick={() => {
                   let indexResult = index;
                   setStateListGraphics(
@@ -185,7 +185,7 @@ const Graphics = () => {
         </div>
         <div className="divGraphic00 flexRowWrap">
           {stateListGraphics.map((list: any) => (
-            <div className="divGraphic01 flexRow">
+            <div className="divGraphic01 flexRow animationTextStart">
               <div className="divGraphic02 flexColumn">
                 <div
                   className="divGraphicTower"

@@ -68,8 +68,12 @@
 .divContainerGallery00 {
   display: flex;
   flex-flow: row nowrap;
-  transition: 0.3s;
+
 }
+
+
+
+
 
 .buttonViewImgListGallery {
   color: rgba(201, 201, 201, 0.575);

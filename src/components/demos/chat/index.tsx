@@ -57,7 +57,7 @@ useEffect(()=>{
 
 
   return (
-    <div className="divContainerChat00 flexColumn">
+    <div className="divContainerChat00 flexColumn animationDemos">
       <form
         className="formContainerSend flexRow"
         onSubmit={(e) => {
@@ -90,7 +90,7 @@ useEffect(()=>{
       <div className="divContainerRoom flexRow">
         <div className="divContainerTextUsers00 flexColumn" ref={containerRef}>
           {stateTxtUsers.map((listTextUsers: any) => (
-            <div className="divContainerTextUsers01 flexColumn">
+            <div className="divContainerTextUsers01 flexColumn animationTextStart">
               <h4>{listTextUsers.id}</h4>
               <h4>{listTextUsers.text}</h4>
             </div>

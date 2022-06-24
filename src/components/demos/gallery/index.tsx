@@ -21,7 +21,7 @@ console.log(hookstateApp);
   const refInputFileImg = useRef<any>(null);
   const [stateInput, setstateInput] = useState<any>("");
   return (
-    <div className="divContainerGallery00">
+    <div className="divContainerGallery00 animationDemos">
       <div className="divContainerGallery01">
         <div className="divContainerUploadImg">
           <input

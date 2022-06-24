@@ -9,14 +9,18 @@
 .divSpinner00 {
   width: 5rem;
   height: 5rem;
-  border: solid 0.1rem wheat;
-  border-left: solid 0.1rem transparent;
+  border: solid 0.4rem rgb(69, 105, 126);
+  border-left: solid 0.4rem transparent;
   border-radius: 50%;
   animation-name: spinnerStart;
+  animation-duration:1s;
+box-shadow: 0rem 0rem .1rem .1rem rgb(56, 86, 104), inset 0rem 0rem .1rem .1rem rgb(64, 108, 133);
+transform: rotate(0deg) scale(1);
 }
 
 @keyframes spinnerStart {
-  50% {
-    transform: rotate(360deg);
+ 50%{ transform: rotate(180deg) scale(1.1);}
+    100% {
+    transform: rotate(360deg) scale(1);
   }
 }

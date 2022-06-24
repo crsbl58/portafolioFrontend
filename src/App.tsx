@@ -50,7 +50,7 @@ let navegate = useNavigate();
         {stateApp.modelImgStatus ? <ModalImg /> : <React.Fragment />}
         <Header hookStateDayNight={stateDayNight} />
         <Profile hookStateDayNight={stateDayNight} />
-        <Demos Spinner={Spinner} hookSetStateApp={setStateApp} hookstateApp={stateApp} />
+        <Demos hookSetStateApp={setStateApp} hookstateApp={stateApp} />
         <Footer />
       </div>
     </div>

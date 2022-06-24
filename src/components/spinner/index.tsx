@@ -1,20 +1,13 @@
-import React from "react";
+import '../../styles/Spinner/index.css';
 
-const Spinner = ({ stateSpiner }: any) => {
-  switch (stateSpiner) {
-    case true:
-      return (
-        <div className="divContainerSpinner00">
-          <div className="divSpinner00 animationCountTiming"></div>
-        </div>
-      );
+const Spinner = ({stateSpiner}:any) => {
+    
 
-    case false:
-      return <React.Fragment></React.Fragment>;
 
-    default:
-      break;
-  }
-};
+    return(
+  <div className="divContainerSpinner00">
+    <div className="divSpinner00 animationCountTiming"></div>
+  </div>
+)};
 
 export default Spinner;
