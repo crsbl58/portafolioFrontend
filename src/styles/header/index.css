@@ -14,26 +14,46 @@
 .divContainerMoon{
    top:2rem;
     left:40vw;
-    width:5rem;
-    height: 5rem;
+    width:4.5rem;
+    height: 4.5rem;
     position: absolute;
-    box-shadow: 0 0 9rem 0.2rem rgba(224, 224, 224, 0.63),  0 0 9.5rem 0.2rem rgba(243, 241, 241, 0.404),
+    box-shadow: 0 0 14.8rem 4rem rgba(224, 224, 224, 0.781),  0 0 9.5rem 0.2rem rgba(243, 241, 241, 0.76),
     inset 0 0 0.8rem 0.2rem rgba(243, 241, 241, 0.623);
     border-radius: 50%;
     animation-name: moonLight;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 49;
 }
+
 @keyframes moonLight {
     50%{
-        box-shadow: 0 0 9rem 0.2rem rgba(224, 224, 224, 0.521),  0 0 10rem 0.2rem rgba(243, 241, 241, 0.404),
+        box-shadow: 0 0 15rem 3.9rem rgba(224, 224, 224, 0.753),  0 0 10rem 0.2rem rgba(243, 241, 241, 0.74),
         inset 0 0 1rem 0.2rem rgba(243, 241, 241, 0.671);
     }
 }
 
 
+.divContainerMoon::before{
+    content: '';
+    width:4.5rem;
+    height: 4.5rem;
+z-index: 50;
+background-color: rgba(235, 235, 235, 0.61);
+border-radius: 50%;
+position: absolute;
+left:0rem;
+animation-name: moonLightBefore;
+animation-duration: .3s;
+animation-iteration-count: infinite;
+}
 
+@keyframes moonLightBefore {
+    50%{
+        background-color: rgba(235, 235, 235, 0.63);   
+    }
+}
 .divContainerBeat{
     width:99vw;
     display: flex;
