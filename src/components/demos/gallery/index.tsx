@@ -80,7 +80,7 @@ console.log(hookstateApp);
         <div className="divContainerListImgGallery">
           {stateListGallery.map(({ name, base64 }, index) => {
             return (
-              <div className="divContainerImgGallery00">
+              <div className="divContainerImgGallery00 animationTextStart">
                 <h3>{name}</h3>
                 <div className="divContainerRevealedRoll">
                   <div className="divContainerImgGallery01">

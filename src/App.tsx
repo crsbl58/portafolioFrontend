@@ -8,7 +8,6 @@ import Profile from "./components/profile/index";
 import NavBar from "./components/navBar/index";
 import Footer from "./components/footer";
 import Demos from "./components/demos";
-import Spinner from './components/spinner/index';
 
 const App: FC = () => {
 let navegate = useNavigate();
