@@ -17,16 +17,18 @@
     width:5rem;
     height: 5rem;
     position: absolute;
-    box-shadow: 0 0 0.3rem 0.2rem rgba(255, 255, 255, 0.247);
+    box-shadow: 0 0 0.3rem 0.2rem rgba(224, 224, 224, 0.404),  0 0 3.5rem 0.2rem rgba(243, 241, 241, 0.404),
+    inset 0 0 .3rem 0.2rem rgba(243, 241, 241, 0.404);
     border-radius: 50%;
     animation-name: moonLight;
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 @keyframes moonLight {
     50%{
-        box-shadow: 0 0 0.3rem 0.2rem rgba(224, 224, 224, 0.404);
+        box-shadow: 0 0 0.3rem 0.2rem rgba(224, 224, 224, 0.404),  0 0 4rem 0.2rem rgba(243, 241, 241, 0.404),
+        inset 0 0 .5rem 0.2rem rgba(243, 241, 241, 0.404);
     }
 }
 

@@ -65,6 +65,7 @@
 }
 .divContainerSelectiondemos01:hover {
 transform: translate(0, -.1rem);
+
 }
 
 
@@ -75,13 +76,14 @@ transform: translate(0, -.1rem);
   font-family: "Goldman", cursive;
   border-radius: 0.3rem;
   transition:0.3s;
- 
 }
 
 .divContainerSelectiondemos01:hover > h2{
   color: rgb(73, 101, 124);
-  
 }
+
+
+
 .divContainerSelectiondemos01:hover >.divContainerIconImg{
   transform: translate(0,-.1rem);
   

@@ -7,7 +7,7 @@ import React, { FC, useState } from 'react';
 const WorkExperience: FC = () =>{
     
     const [listSkillWorkExperience, setListSkillWorkExperience] = useState([
-        [['Soporte'],['Asistencia'], ['Excel'], ['Css3'], ['html5'], ['javascript']],
+        [['Soporte'],['Asistencia'], ['javascript']],
         [['Css3'], ['Html5'], ['Antd'],['ReactJs'], ['Redux'], ['GitLab'], ['Jira'], ['typeScript']]
     ]);
 

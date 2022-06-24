@@ -1,14 +1,10 @@
-import React, { useState } from "react";
-import Gallery from "./gallery/index";
-import Graphics from "./graphics/index";
-import Chat from "./chat/index";
+import { useState } from "react";
 import "../../styles/demos/index.css";
 import "../../styles/demos/responsiveIndex.css";
-import ApiNasa from "./apiNasa/index";
 import svg from "../../img/svg/index";
-import { Outlet, useNavigate, useLocation  } from "react-router-dom";
+import { Outlet, useNavigate, useLocation } from "react-router-dom";
 
-const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
+const Demos = ({ hookstateApp, hookSetStateApp, Spinner }: any) => {
   const [stateDemos, setStateDemos] = useState<any>({
     indexSelected: 0,
   });
@@ -37,8 +33,8 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
   ]);
 
   let navigate = useNavigate();
-let location = useLocation();
-console.log(location);
+  let location = useLocation();
+  console.log(location);
   return (
     <div className="divContainerDemos00">
       <div className="divContainerTitleDemos">
@@ -46,9 +42,12 @@ console.log(location);
       </div>
       <div className="divContainerSelectionDemos00">
         {stateListDemos.map((listDemo: any, index) => (
-          <div className="divContainerSelectiondemos01" onClick={() => {
-            navigate(listDemo.link);
-          }}>
+          <div
+            className="divContainerSelectiondemos01"
+            onClick={() => {
+              navigate(listDemo.link);
+            }}
+          >
             <h2
               style={
                 location.pathname.slice(1) == listDemo.link
@@ -67,10 +66,7 @@ console.log(location);
       </div>
       <div className="divContainerDemos01">
         <section>
-       {<Outlet
-       context={[hookSetStateApp, hookstateApp]}
-       
-       />}
+          {<Outlet context={[hookSetStateApp, hookstateApp, Spinner]} />}
         </section>
       </div>
     </div>

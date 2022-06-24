@@ -8,6 +8,7 @@ import Profile from "./components/profile/index";
 import NavBar from "./components/navBar/index";
 import Footer from "./components/footer";
 import Demos from "./components/demos";
+import Spinner from './components/spinner/index';
 
 const App: FC = () => {
 let navegate = useNavigate();
@@ -45,11 +46,11 @@ let navegate = useNavigate();
   return (
     <div  className="divContainerApp">
       <NavBar />
-      <div  className="App">
+      <div   className="App">
         {stateApp.modelImgStatus ? <ModalImg /> : <React.Fragment />}
         <Header hookStateDayNight={stateDayNight} />
         <Profile hookStateDayNight={stateDayNight} />
-        <Demos hookSetStateApp={setStateApp} hookstateApp={stateApp} />
+        <Demos Spinner={Spinner} hookSetStateApp={setStateApp} hookstateApp={stateApp} />
         <Footer />
       </div>
     </div>

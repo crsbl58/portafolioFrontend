@@ -9,6 +9,7 @@
     rgb(32, 53, 70) 47%,
     rgb(30, 60, 75) 92%
   );
+
 }
 .App::-webkit-scrollbar-thumb {
   background-color: rgb(203, 213, 223);
