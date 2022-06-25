@@ -5,6 +5,7 @@
     height: auto ;
     position: relative;
     z-index: 0;
+
 }
 .divContainerSky{
     width:99vw;
@@ -74,4 +75,14 @@ header{
 /*     background: linear-gradient(180deg, rgb(19, 28, 39) 16%, rgb(42, 58, 65) 47%, rgb(47, 88, 122) 90%); */
     /* background: linear-gradient(180deg, rgb(204, 220, 240) 16%, rgb(160, 218, 240) 47%, rgb(86, 160, 221) 90%); */
   overflow: hidden;
+  }
+
+
+  .divContainerSeaEnd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    position: relative;
+    z-index: 0;
   }

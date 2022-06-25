@@ -19,11 +19,14 @@ console.log(typeof(hookStateDayNight));
     {svg().moon}
     </div>
     </div>
-  <div className='divContainerSea'>
+  <div className='divContainerSea flexColumn'>
     {svg().Sea}
     <div className='divContainerBeat'>
   {svg().beat}
 </div>
+{/* <div className='divContainerSeaEnd'>
+  {svg().SeaEnd}
+</div> */}
     </div>
   </header>
 }

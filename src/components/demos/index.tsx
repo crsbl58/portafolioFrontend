@@ -11,8 +11,8 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
 
   const [stateListDemos] = useState([
     {
-      name: "Imágenes",
-      iconComponent: svg().iconGallery,
+      name: "Ver img, pdf",
+      iconComponent: svg().iconGalleryPdf,
       link: "Gallery",
     },
     {

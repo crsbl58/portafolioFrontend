@@ -4,18 +4,20 @@ import svg from "../../../img/svg";
 import mocks from "../../../mocks/index";
 import "../../../styles/demos/gallery/index.css";
 import "../../../styles/demos/gallery/responsiveIndex.css";
+import logoPdf from '../../../img/logopdf.png'
 
-const Gallery = () => {
+const GalleryPdf = () => {
   const [hookSetStateApp, hookstateApp]: any = useOutletContext();
-console.log(hookstateApp);
   const [stateListGallery, setStateListGallery] = useState([
     {
       name: "empuñadura",
       base64: mocks().img.gallery.img00,
+      type: 0,
     },
     {
-      name: "torre",
-      base64: mocks().img.gallery.img01,
+      name: "pdf",
+      base64: mocks().pdf.pdf1,
+      type: 1,
     },
   ]);
   const refInputFileImg = useRef<any>(null);
@@ -29,7 +31,7 @@ console.log(hookstateApp);
             type="file"
             ref={refInputFileImg}
             name="img"
-            accept="image/*"
+            accept="image/jpeg, application/pdf"
             onChange={async (event) => {
               const convertBase64 = (file: any) => {
                 return new Promise((resolve, reject) => {
@@ -45,14 +47,14 @@ console.log(hookstateApp);
               };
               const file = event.target.files;
               const base64: any = await convertBase64(file![0]);
-              console.log(stateListGallery.length);
-
+              const typeData = base64.slice(5, 15) =="image/jpeg" ? 0 : 1
               stateListGallery.length < 6
                 ? setStateListGallery([
                     ...stateListGallery,
                     {
                       name: stateInput,
                       base64: base64,
+                      type: typeData,
                     },
                   ])
                 : alert("excede el limite de fotografias");
@@ -66,7 +68,7 @@ console.log(hookstateApp);
                 : alert("Ingrese titulo, mayor a 3 letras o numeros");
             }}
           >
-            Subir Imágen
+            Subir Img, Pdf
           </button>
           <input
             placeholder="Ingrese titulo"
@@ -78,27 +80,32 @@ console.log(hookstateApp);
           ></input>
         </div>
         <div className="divContainerListImgGallery">
-          {stateListGallery.map(({ name, base64 }, index) => {
-            return (
+          {stateListGallery.map(({ name, base64, type }, index) => {
+          let viewData = type === 0 ?     base64
+          ? base64
+          : "http://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif"
+
+          : logoPdf
+          return (
               <div className="divContainerImgGallery00 animationTextStart">
                 <h3>{name}</h3>
                 <div className="divContainerRevealedRoll">
                   <div className="divContainerImgGallery01">
                     <img
                       src={
-                        base64
-                          ? base64
-                          : "http://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif"
+                        viewData
+                    
                       }
                       className="ImgGalleryViewBase64"
                     ></img>
                     <button
                       className="buttonViewImgListGallery"
                       onClick={() => {
-                   hookSetStateApp({
+                        hookSetStateApp({
                           ...hookstateApp,
-                          modelImgStatus: true,
+                          modelImgPdfStatus: true,
                           base64Img: base64,
+                          typeData:type,
                         });
                       }}
                     >
@@ -133,7 +140,7 @@ console.log(hookstateApp);
   );
 };
 
-export default Gallery;
+export default GalleryPdf;
 
 function readAsDataURL(f: {
   [x: number]: File;

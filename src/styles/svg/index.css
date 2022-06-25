@@ -349,6 +349,69 @@
   }
 }
 
+/* mar final */
+#SeaEnd {
+  top:.1rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.SeaEnd0 {
+  fill: rgb(59, 158, 175);
+}
+
+.SeaEnd1 {
+  fill: #9cc4d0;
+
+}
+
+#IdSeaEnd1{
+  animation-name: seaEnd01, colorProfileChange;
+  animation-duration: 2s, 10s;
+}
+
+@keyframes seaEnd01 {
+  50% {
+    d: path(
+      "M0,10h100V2.29c-4.56,1.29-11.39-1.21-19.71-1.12C68.33,1.3,66.11,7.4,52.96,6.57 c-11.94-0.75-18.05-5.6-33.89-5.43C9.18,1.25,5.13,2.5,0,1.88C0,4.59,0,7.29,0,10z"
+    );
+  }
+}
+.SeaEnd2 {
+  fill: #3f8999;
+}
+#IdSeaEnd2{
+  animation-name: seaEnd02, colorProfileChange;
+  animation-duration: 2s, 10s;
+}
+
+@keyframes seaEnd02 {
+ 
+ 35%{
+  d:path("M0,10h100c0-2.43,0-4.86,0-7.29c-5.5-0.4-13.92-0.88-24.21-0.96c-15.33-0.13-23.51,0.73-36,1.07 C30.4,3.08,16.79,3.11,0,1.86C0,4.57,0,7.29,0,10z")
+ }
+  70% {
+    d: path(
+      "M0,10h100c0-1.61,0-3.21,0-4.82C86.84,5.42,76.19,5.37,69.14,5.29C55.32,5.13,48.01,4.77,29.18,4.32 C16.5,4.02,6.28,3.87,0,3.79C0,5.86,0,7.93,0,10z"
+    );
+  }
+}
+.SeaEnd2 {
+  fill: rgb(59, 158, 175);
+}
+#IdSeaEnd3{
+  animation-name: seaEnd03,  colorProfileChange;
+  animation-duration: 2s, 10s;
+}
+
+@keyframes seaEnd03 {
+  40%{
+    d:path("M0,10h100c0.04-2,0.07-4,0.11-6c-4.93-0.26-12.72-0.57-22.29-0.54c-20.95,0.07-29.57,1.72-46.5,1.61 C24.03,5.02,13.24,4.64,0,2.93C0,5.29,0,7.64,0,10z")
+  }
+  50%{
+    d:path("M0,10h100c0-1.29,0-2.57,0-3.86C88.26,4.09,78.71,3.66,72.35,3.62c-20.7-0.14-30.2,3.74-50.14,2.53 C12.55,5.55,4.79,4.03,0,2.93C0,5.29,0,7.64,0,10z")
+  }
+}
 /* barco */
 .beat0 {
   fill: #e2e0e0;
@@ -815,55 +878,12 @@
 }
 
 /* icono galeria*/
-
-.iconGallery0 {
-  fill: none;
-  stroke: #3c7da6;
-  stroke-width: 0.1;
-  stroke-miterlimit: 10;
-}
-.iconGallery1 {
-  fill: none;
-  stroke: #3c7da6;
-  stroke-width: 0.1;
-  stroke-miterlimit: 10;
-}
-.iconGallery2 {
-  fill: rgb(20, 26, 29);
-  stroke: #2d5974;
-  stroke-width: 0.23;
-  stroke-miterlimit: 10;
-}
-.iconGallery3 {
-  fill: none;
-  stroke: #678b9e;
-  stroke-width: 0.08;
-  stroke-miterlimit: 10;
-}
-.iconGallery4 {
-  fill: none;
-  stroke: #3c7da6;
-  stroke-width: 0.1;
-  stroke-miterlimit: 10;
-}
-.iconGallery5 {
-  fill: none;
-  stroke: #3c7da6;
-  stroke-width: 0.18;
-  stroke-miterlimit: 10;
-}
-.iconGallery6 {
-  fill: rgb(20, 26, 29);
-  stroke: #348ead;
-  stroke-width: 0.1;
-  stroke-miterlimit: 10;
-}
-.iconGallery7 {
-  fill: none;
-  stroke: #246379;
-  stroke-width: 0.1;
-  stroke-miterlimit: 10;
-}
+.iconGalleryPdf0{fill:none;stroke:#3C668B;stroke-width:0.13;stroke-miterlimit:10;}
+.iconGalleryPdf1{fill:none;stroke:#3C668B;stroke-width:0.13;stroke-miterlimit:10;}
+.iconGalleryPdf2{fill:none;stroke:#597481;stroke-width:0.08;stroke-miterlimit:10;}
+.iconGalleryPdf3{fill:none;stroke:#3C668B;stroke-width:0.1;stroke-miterlimit:10;}
+.iconGalleryPdf4{fill:none;stroke:#3C668B;stroke-width:0.18;stroke-miterlimit:10;}
+.iconGalleryPdf5{fill:none;stroke:#3F7B91;stroke-width:0.2;stroke-miterlimit:10;}
 
 /* icon api */
 .iconApi0 {
@@ -892,6 +912,15 @@
   stroke-miterlimit: 10;
 }
 
-
-.iconChatRoom0{fill:#FFFFFF;stroke:#3C668B;stroke-width:0.1;stroke-miterlimit:10;}
-.iconChatRoom1{fill:none;stroke:#3C668B;stroke-width:0.1;stroke-miterlimit:10;}
+.iconChatRoom0 {
+  fill: #ffffff;
+  stroke: #3c668b;
+  stroke-width: 0.1;
+  stroke-miterlimit: 10;
+}
+.iconChatRoom1 {
+  fill: none;
+  stroke: #3c668b;
+  stroke-width: 0.1;
+  stroke-miterlimit: 10;
+}

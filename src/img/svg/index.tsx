@@ -474,6 +474,16 @@ c0,0,0.1,0.1,0.2,0.2C27.2,23.8,27.2,23.9,27.3,23.9z"
       />
     </svg>,
   ],
+  SeaEnd:[<svg version="1.1" id="SeaEnd" x="0px" y="0px"
+  viewBox="0 0 100 10">
+
+<rect className="SeaEnd0" width="100" height="10"/>
+<path id="IdSeaEnd2" className="SeaEnd1 baseAnimation" d="M0,10h100c0-1.98,0-3.97,0-5.95C86.18,2.68,74.85,2.43,67,2.47C51.17,2.54,43.43,3.78,25.97,3.71
+ C14.94,3.66,5.92,3.11,0,2.66C0,5.1,0,7.55,0,10z"/>
+<path id="IdSeaEnd3" className="SeaEnd0 baseAnimation" d="M0,10h100c0-1.86,0-3.71,0-5.57C82.57,2.99,68.46,3.09,58.64,3.46C46.55,3.93,37.15,4.96,21.79,4.32
+ C12.56,3.94,5,3.11,0,2.47C0,4.98,0,7.49,0,10z"/>
+</svg>
+],
   beat: [
     <svg version="1.1" id="boat" x="0px" y="0px" viewBox="0 0 40 40">
       <path className="beat0" d="M10.88,4.99c-0.25,0.98-0.51,1.96-0.76,2.95" />
@@ -1319,80 +1329,30 @@ C0.62,1.03,0.79,0.55,1,0.14"
       <ellipse className="dumpster2" cx="4.99" cy="2.04" rx="3.92" ry="1.01" />
     </svg>,
   ],
-  iconGallery: [
-    <svg version="1.1" x="0px" y="0px" viewBox="0 0 30 30">
-      <path
-        className="iconGallery0"
-        d="M28.85,22.61c-3.77,0.51-8.23,0.88-13.25,0.84c-4.49-0.03-8.52-0.38-11.99-0.84c0-5.68,0-11.37,0-17.05
-c3.73-0.4,7.97-0.68,12.62-0.68s8.89,0.27,12.62,0.68C28.85,11.25,28.85,16.93,28.85,22.61z"
-      />
-      <circle className="iconGallery1" cx="10.28" cy="12.57" r="1.32" />
-      <path
-        className="iconGallery1"
-        d="M23.96,8.18c-2.22-0.31-4.73-0.52-7.5-0.52c-2.79,0-5.32,0.21-7.55,0.52c0-0.79,0-1.57,0-2.36
-c2.13-0.26,4.48-0.44,7.03-0.46c2.93-0.02,5.62,0.17,8.01,0.46C23.96,6.61,23.96,7.4,23.96,8.18z"
-      />
-      <rect
-        x="-8.69"
-        y="3.18"
-        className="iconGallery2"
-        width="0.5"
-        height="0.05"
-      />
-      <ellipse
-        className="iconGallery3"
-        cx="10.29"
-        cy="12.57"
-        rx="0.88"
-        ry="0.89"
-      />
-      <ellipse
-        className="iconGallery1"
-        cx="16.55"
-        cy="16.71"
-        rx="5.4"
-        ry="5.35"
-      />
-      <rect
-        x="15.72"
-        y="11.91"
-        transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 33.3292 0.168)"
-        className="iconGallery0"
-        width="1.72"
-        height="9.68"
-      />
-      <path
-        className="iconGallery4"
-        d="M19.77,16.62c0,1.76-1.43,3.19-3.19,3.19s-3.19-1.43-3.19-3.19c0-1.76,1.43-3.19,3.19-3.19
-S19.77,14.86,19.77,16.62z"
-      />
-      <ellipse
-        className="iconGallery5"
-        cx="16.57"
-        cy="16.75"
-        rx="4.92"
-        ry="4.84"
-      />
-      <ellipse
-        className="iconGallery0"
-        cx="16.57"
-        cy="16.63"
-        rx="2.83"
-        ry="2.85"
-      />
-      <ellipse
-        className="iconGallery6"
-        cx="16.57"
-        cy="16.64"
-        rx="2.54"
-        ry="2.56"
-      />
-      <path
-        className="iconGallery1"
-        d="M8.81,21.84c-0.47-0.01-0.97-0.03-1.48-0.06c-0.88-0.06-1.7-0.14-2.45-0.25c0-0.69,0-1.38,0-2.07
-c0.58,0.07,1.2,0.13,1.86,0.17c0.77,0.05,1.49,0.06,2.15,0.06C8.86,20.41,8.84,21.12,8.81,21.84z"
-      />
-    </svg>,
+  iconGalleryPdf: [
+    <svg version="1.1" id="Capa_1"  x="0px" y="0px"
+    viewBox="0 0 30 30">
+
+ <path className="iconGalleryPdf0" d="M19.63,18.85c-2.36,0.3-5.16,0.51-8.31,0.5c-2.82-0.02-5.34-0.22-7.52-0.5c0-3.33,0-6.67,0-10
+   c2.34-0.24,4.99-0.4,7.91-0.4s5.57,0.16,7.91,0.4C19.63,12.18,19.63,15.51,19.63,18.85z"/>
+ <circle className="iconGalleryPdf1" cx="8.15" cy="12.26" r="0.86"/>
+ <path className="iconGalleryPdf1" d="M17.12,10.75c-1.44-0.2-3.08-0.34-4.88-0.34c-1.81,0-3.46,0.14-4.91,0.34c0-0.51,0-1.02,0-1.53
+   c1.39-0.17,2.92-0.29,4.57-0.3c1.91-0.02,3.66,0.11,5.21,0.3C17.12,9.73,17.12,10.24,17.12,10.75z"/>
+ <ellipse className="iconGalleryPdf2" cx="8.16" cy="12.26" rx="0.57" ry="0.58"/>
+ <ellipse className="iconGalleryPdf1" cx="12.23" cy="14.95" rx="3.52" ry="3.48"/>
+ <rect x="11.69" y="11.83" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 27.2281 2.7263)" className="iconGalleryPdf0" width="1.12" height="6.3"/>
+ <path className="iconGalleryPdf3" d="M14.32,14.9c0,1.15-0.93,2.08-2.08,2.08s-2.08-0.93-2.08-2.08s0.93-2.08,2.08-2.08S14.32,13.75,14.32,14.9z"/>
+ <ellipse className="iconGalleryPdf4" cx="12.25" cy="14.98" rx="3.2" ry="3.15"/>
+ <ellipse className="iconGalleryPdf0" cx="12.24" cy="14.9" rx="1.84" ry="1.85"/>
+ <ellipse className="iconGalleryPdf5" cx="12.24" cy="14.91" rx="1.65" ry="1.67"/>
+ <path className="iconGalleryPdf1" d="M7.19,18.29c-0.31-0.01-0.63-0.02-0.97-0.04c-0.57-0.04-1.11-0.09-1.59-0.16c0-0.45,0-0.9,0-1.35
+   c0.38,0.04,0.78,0.08,1.21,0.11c0.5,0.03,0.97,0.04,1.4,0.04C7.23,17.36,7.21,17.83,7.19,18.29z"/>
+ <rect x="15.45" y="5.63" className="iconGalleryPdf0" width="11.83" height="16.52"/>
+ <rect x="16.5" y="6.44" className="iconGalleryPdf0" width="9.71" height="1.77"/>
+ <rect x="16.5" y="8.93" className="iconGalleryPdf0" width="9.71" height="0.88"/>
+ <rect x="16.5" y="10.67" className="iconGalleryPdf0" width="9.71" height="9.13"/>
+ <rect x="16.5" y="20.43" className="iconGalleryPdf0" width="9.71" height="0.52"/>
+ </svg>
   ],
   iconApi: [
     <svg version="1.1" x="0px" y="0px" viewBox="0 0 30 30">
