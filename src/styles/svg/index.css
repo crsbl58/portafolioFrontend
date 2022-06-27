@@ -351,67 +351,57 @@
 
 /* mar final */
 #SeaEnd {
-  top:.1rem;
+  z-index: 20;
   width: 100%;
   height: 100%;
   position: relative;
-}
-.SeaEnd0 {
-  fill: rgb(59, 158, 175);
-}
+} 
 
-.SeaEnd1 {
-  fill: #9cc4d0;
-
+.SeaEnd0{fill:rgb(59, 158, 175);
+  z-index: 25;
+  animation-name: colorProfileChange;
+  animation-duration: 10s;
 }
-
-#IdSeaEnd1{
-  animation-name: seaEnd01, colorProfileChange;
-  animation-duration: 2s, 10s;
-}
-
-@keyframes seaEnd01 {
-  50% {
-    d: path(
-      "M0,10h100V2.29c-4.56,1.29-11.39-1.21-19.71-1.12C68.33,1.3,66.11,7.4,52.96,6.57 c-11.94-0.75-18.05-5.6-33.89-5.43C9.18,1.25,5.13,2.5,0,1.88C0,4.59,0,7.29,0,10z"
-    );
-  }
-}
-.SeaEnd2 {
-  fill: #3f8999;
-}
-#IdSeaEnd2{
-  animation-name: seaEnd02, colorProfileChange;
-  animation-duration: 2s, 10s;
-}
-
-@keyframes seaEnd02 {
+.SeaEnd1{fill:#2a96b1;
+  z-index: 25;
+  animation-name: moveSeaEnd1, colorProfileChange;
+  animation-duration: 3s, 10s;
  
- 35%{
-  d:path("M0,10h100c0-2.43,0-4.86,0-7.29c-5.5-0.4-13.92-0.88-24.21-0.96c-15.33-0.13-23.51,0.73-36,1.07 C30.4,3.08,16.79,3.11,0,1.86C0,4.57,0,7.29,0,10z")
- }
-  70% {
-    d: path(
-      "M0,10h100c0-1.61,0-3.21,0-4.82C86.84,5.42,76.19,5.37,69.14,5.29C55.32,5.13,48.01,4.77,29.18,4.32 C16.5,4.02,6.28,3.87,0,3.79C0,5.86,0,7.93,0,10z"
-    );
+}
+@keyframes moveSeaEnd1 {
+  50%{
+    d:path("M100,20H0c0-3.99,0-7.98,0-11.96c4.21-0.59,11.07-1.3,19.54-0.96c12,0.47,15,2.56,25.07,2.04  c11.04-0.57,9.69-3.19,20.25-3.43c6.45-0.15,8.9,0.79,25.07,2.14c4.32,0.36,7.84,0.61,10.07,0.75C100,12.38,100,16.19,100,20z");
+
   }
-}
-.SeaEnd2 {
-  fill: rgb(59, 158, 175);
-}
-#IdSeaEnd3{
-  animation-name: seaEnd03,  colorProfileChange;
-  animation-duration: 2s, 10s;
 }
 
-@keyframes seaEnd03 {
-  40%{
-    d:path("M0,10h100c0.04-2,0.07-4,0.11-6c-4.93-0.26-12.72-0.57-22.29-0.54c-20.95,0.07-29.57,1.72-46.5,1.61 C24.03,5.02,13.24,4.64,0,2.93C0,5.29,0,7.64,0,10z")
-  }
-  50%{
-    d:path("M0,10h100c0-1.29,0-2.57,0-3.86C88.26,4.09,78.71,3.66,72.35,3.62c-20.7-0.14-30.2,3.74-50.14,2.53 C12.55,5.55,4.79,4.03,0,2.93C0,5.29,0,7.64,0,10z")
-  }
+.SeaEnd2{fill:rgb(59, 158, 175);
+  animation-name: moveSeaEnd2, colorProfileChange;
+  animation-duration: 3s, 10s;
+ 
 }
+
+
+@keyframes moveSeaEnd2 {
+  50%{d:path("M100,20H0v-8.96c8.04-1.95,14.18-1.41,18.34-0.52c7.13,1.52,8.22,3.99,13.91,3.97  c8.05-0.02,9.43-4.98,16.84-4.5c6.55,0.42,6.22,3.58,12.97,4.29C72.85,15.41,77.41,6.92,85.39,10c1.83,0.71,3.08,1.73,7.85,3.66  c2.82,1.14,5.2,1.92,6.77,2.41C100,17.38,100,18.69,100,20z")}
+}
+
+/* FLoat */
+
+#Idfloat1{
+  position: absolute;
+  width:5rem;
+  height:10rem;
+  left:60vw;
+  z-index: 20;
+}
+
+.Float0{fill:#EAEF8B;}
+.Float1{fill:#CE3025;}
+.Float2{fill:#302828;}
+.Float3{fill:#E2B2AF;}
+.Float4{fill:#B3DBAD;}
+
 /* barco */
 .beat0 {
   fill: #e2e0e0;

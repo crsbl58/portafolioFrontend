@@ -11,8 +11,8 @@ const Bubbles = () => {
     let array = [];
     for (let i = 0; i < 50; i++) {
       let coordinatedLeftBubbles = Math.floor(Math.random() * 99 + 1);
-      let coordinatedToptBubbles =  Math.floor(Math.random() * 70 + 1);
-      let coordinatedSizeBubbles = Math.floor(Math.random() * 4 + 1);
+      let coordinatedToptBubbles =  Math.floor(Math.random() * 80 + 1);
+      let coordinatedSizeBubbles = Math.floor(Math.random() * 6 + 1);
       let randomAnimationDuration = Math.floor(Math.random() * 6 + 1);
       let randomAnimationDelay = Math.floor(Math.random() * 5 + 1);
       let randomIndexBubbles = Math.floor(Math.random() * 2 + 1);
