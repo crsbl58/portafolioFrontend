@@ -329,7 +329,7 @@
 }
 
 #sea3Id00 {
-  fill: rgb(59, 158, 175);
+  fill: rgb(46, 182, 206);
   animation-name: sea3Color, sea3id00movement;
   animation-duration: 10s, 3s;
   animation-iteration-count: infinite, infinite;
@@ -351,18 +351,20 @@
 
 /* mar final */
 #SeaEnd {
+  top:.1rem;
   z-index: 20;
   width: 100%;
   height: 100%;
   position: relative;
+
 } 
 
-.SeaEnd0{fill:rgb(59, 158, 175);
+.SeaEnd0{fill:rgb(46, 182, 206);
   z-index: 25;
   animation-name: colorProfileChange;
   animation-duration: 10s;
 }
-.SeaEnd1{fill:#2a96b1;
+.SeaEnd1{fill:#3aafcc;
   z-index: 25;
   animation-name: moveSeaEnd1, colorProfileChange;
   animation-duration: 3s, 10s;
@@ -375,7 +377,7 @@
   }
 }
 
-.SeaEnd2{fill:rgb(59, 158, 175);
+.SeaEnd2{fill:  rgb(39, 155, 175);
   animation-name: moveSeaEnd2, colorProfileChange;
   animation-duration: 3s, 10s;
  
@@ -618,10 +620,10 @@
   fill: #bca471;
 }
 .beat49 {
-  fill: #57acce;
+  fill:rgb(46, 182, 206);
   animation-name: sea5Moving;
   animation-duration: 1s;
-  fill: rgb(59, 158, 175);
+
 }
 
 @keyframes sea5Moving {
