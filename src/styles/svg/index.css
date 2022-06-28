@@ -452,6 +452,41 @@ top:.1rem;
   z-index: 20;
 }
 
+
+/* Animales */
+
+/* medusa */
+.medusa0{
+
+  animation-name:moviMedusa01 ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#iDMedusa1{
+
+position: absolute;
+animation-name:moviMedusa00 ;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes moviMedusa00{
+  50%{
+  transform: translate(20vw, -25rem);
+  
+  
+  }
+}
+@keyframes moviMedusa01{
+  50%{
+    transform: skewY(10deg);
+    d:path("M13.07,6.73c-0.13,0.18-0.4,0.27-0.77,0.75c-0.25,0.32-0.43,0.55-0.46,0.89c-0.02,0.29,0.09,0.42,0.02,0.78  c-0.02,0.09-0.09,0.44-0.23,0.45c-0.21,0.02-0.25-0.75-0.63-0.85c-0.34-0.09-0.82,0.4-1.06,0.82c-0.33,0.6-0.14,0.98-0.51,1.26  c-0.27,0.21-0.47,0.08-0.72,0.32c-0.06,0.06-0.22,0.24-0.3,0.84c-0.1,0.83,0.1,1.3-0.03,1.36c-0.17,0.07-0.67-0.69-0.83-0.94  c-0.2-0.3-0.34-0.57-0.36-0.6c-0.39-0.75-0.39-1.06-0.68-1.16c-0.26-0.1-0.48,0.09-0.58-0.03c-0.13-0.16,0.27-0.49,0.21-0.84  c-0.09-0.54-1.22-1.04-1.71-0.7c-0.59,0.41-0.19,1.96-0.26,1.97c-0.04,0-0.1-0.39-0.17-0.8C3.84,9.16,3.85,9.06,3.75,8.88  c-0.31-0.55-0.9-0.42-1.23-0.77c-0.8-0.83,0.13-4.07,2.52-5.62C5.42,2.24,7.3,1.09,9.46,1.74C12.26,2.59,13.66,5.94,13.07,6.73z")
+  
+  }
+}
+
 /* barco */
 .beat0 {
   fill: #e2e0e0;
