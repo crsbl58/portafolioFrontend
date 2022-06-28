@@ -24,10 +24,11 @@ console.log(typeof(hookStateDayNight));
     <div className='divContainerBeat'>
   {svg().beat}
 </div>
+{svg().Float} 
  <div className='divContainerSeaEnd'>
   {svg().SeaEnd}
 
- {svg().Float} 
+
 
 </div> 
     </div>
