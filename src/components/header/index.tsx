@@ -27,9 +27,6 @@ console.log(typeof(hookStateDayNight));
 {svg().Float} 
  <div className='divContainerSeaEnd'>
   {svg().SeaEnd}
-
-
-
 </div> 
     </div>
   </header>
