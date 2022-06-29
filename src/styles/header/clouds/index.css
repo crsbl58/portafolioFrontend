@@ -1,5 +1,6 @@
 
 .divClouds{
+    filter:blur(.4rem);
     position: absolute;
     animation-name:identifier ;
     animation-duration: 20s;

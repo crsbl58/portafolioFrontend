@@ -927,6 +927,7 @@ animation-name:moviMedusa00 ;
 }
 
 .divContainerClouds {
+  filter: blur(.5rem);
   width: 4rem;
   height: 4rem;
 }
