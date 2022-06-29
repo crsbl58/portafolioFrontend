@@ -59,6 +59,7 @@ const Profile: FC<propsProfile> = ({ hookStateDayNight }) => {
         {svg(8, 8, 30, 35, "rgb(119, 178, 218)").animals.medusa}
         {svg().animals.fish00}
         {svg().animals.orca}
+    {/*     {svg().animals.tortoise} */}
         <Bubbles />
         <div className="divContainerTitleProfile">
           <div className="divContainerFishingLine">{svg().fishingLine}</div>

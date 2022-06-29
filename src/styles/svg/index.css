@@ -465,6 +465,7 @@
   animation-timing-function: linear;
 }
 #iDMedusa1{
+  z-index: -1;
   filter: blur(.1rem);
 position: absolute;
 animation-name:moviMedusa00 ;
@@ -490,6 +491,7 @@ animation-name:moviMedusa00 ;
 
 /* pez */
 #iDfish00{
+  z-index: -1;
   filter: blur(.1rem);
   position: absolute;
   width:4rem;
@@ -541,28 +543,89 @@ animation-name:moviMedusa00 ;
   position: absolute;
   width:35rem;
   height:15rem;
-  top:50rem;
+  top:80rem;
   left:90vw;
   animation-name:moviOrca0 ; 
   animation-duration: 150s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  z-index: -5;
 }
 @keyframes moviOrca0 {
   0%{
     filter:blur(.5rem);
-    transform:  translate(0vw, 2rem) skewX(10deg) scale(.2) rotate(-5deg);
+    transform:  translate(0vw, 2rem) skewX(10deg) scale(.2) rotate(-10deg);
   }
   50%{
-    filter:blur(.05rem);
-    transform:  translate(-70vw, 5rem) skewX(10deg) scale(.8) rotate(10deg);
+    filter:blur(.07rem);
+    transform:  translate(-90vw, -25rem) skewX(10deg) scale(.5) rotate(20deg);
   }
   
   100%{
     filter:blur(.5rem);
-    transform:  translate(-170vw, -33rem) skewX(10deg) scale(.3) rotate(25deg);
+    transform:  translate(-190vw, -50rem) skewX(10deg) scale(.3) rotate(30deg);
    }
 }
+
+/* tortuga */
+#Idtortoise00{
+  position:absolute;
+  width: 15rem;
+  height: 15rem;
+  top:60rem;
+  left:-17vw;
+  animation-name:moviTortoise ; 
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes moviTortoise {
+0%{
+  filter:blur(.1rem);
+  transform: translate(0vw, 0rem) rotate(38deg) scale(.5);
+}
+
+50%{
+  filter:blur(.05rem);
+  transform: translate(78vw, -25rem) rotate(60deg) scale(.6);
+}
+75%{
+  filter:blur(.05rem);
+  transform: translate(80vw, -35rem) rotate(100deg) scale(.6);
+}
+  100%{
+    filter:blur(0.03rem);
+    transform: translate(130vw, -55rem) rotate(100deg) scale(.9);
+  }
+}
+
+
+.tortoise0{fill:#CCC192;}
+.tortoise1{fill:#CCC7B4;}
+.tortoise2{fill:#B7AE86;stroke:#B5AD8C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise3{fill:#AF9680;stroke:#C6B97F;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise4{fill:#968E6F;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise5{fill:#B7B197;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise6{fill:#BCB5A2;stroke:#B2951D;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise7{fill:#A09B87;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise8{fill:#AE9689;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise9{fill:#C1B584;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise10{fill:#B2B287;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise11{fill:#A38F79;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise12{fill:#AA9371;stroke:#CEC59F;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise13{fill:#DBD5B6;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise14{fill:#C4BEA3;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise15{fill:#9D9288;stroke:#B7AC80;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise16{fill:#99916D;stroke:#C6B97F;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise17{fill:#95806E;stroke:#E2D59F;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise18{fill:#A1A886;stroke:#C9AF42;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise19{fill:#AA9F6F;stroke:#E0D6AF;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise20{fill:#9DA56B;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise21{fill:#A58C77;stroke:#A3986C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise22{fill:#A59E86;stroke:#7A755C;stroke-width:0.05;stroke-miterlimit:10;}
+.tortoise23{fill:#AAA179;}
+
 /* barco */
 .beat0 {
   fill: #e2e0e0;
@@ -927,7 +990,6 @@ animation-name:moviMedusa00 ;
 }
 
 .divContainerClouds {
-  filter: blur(.5rem);
   width: 4rem;
   height: 4rem;
 }
@@ -976,6 +1038,9 @@ animation-name:moviMedusa00 ;
 .rollPhotographs13 {
   fill: #cfcece;
 }
+
+
+
 
 /* hilo de pescar */
 .fishingLine0 {
