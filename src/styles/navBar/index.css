@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap");
 
 nav {
-  z-index: 30;
+  z-index: 50;
   left: 0vw;
   position: absolute;
   /*     background-color: rgba(49, 95, 136, 0.233); */
