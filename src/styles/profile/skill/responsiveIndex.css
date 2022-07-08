@@ -4,10 +4,14 @@
     .divSkillsDescription{
 max-width:90vw;
 }
-.{
-    max-width:95vw;  
-}
 .divContainerSkills00{
     flex-flow: column nowrap;
 }
+
+.divContainerParagraphSkill00 {
+
+  max-width: 95vw;
+
+}
+
 }

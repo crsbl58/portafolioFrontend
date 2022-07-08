@@ -525,6 +525,8 @@ animation-name:moviMedusa00 ;
   
 }
 
+
+
 /* orca */
 .orca0{fill:#162d46;
   animation-name:moviOrca1 ; 
@@ -567,36 +569,35 @@ animation-name:moviMedusa00 ;
    }
 }
 
+
+
 /* tortuga */
-#Idtortoise00{
+#iDTortoise00{
   position:absolute;
   width: 15rem;
   height: 15rem;
   top:60rem;
   left:-17vw;
   animation-name:moviTortoise ; 
-  animation-duration: 20s;
+  animation-duration: 140s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
 }
 @keyframes moviTortoise {
 0%{
-  filter:blur(.1rem);
-  transform: translate(0vw, 0rem) rotate(38deg) scale(.5);
+  filter:blur(0.5rem);
+  transform: translate(0vw, 0rem) rotate(38deg) scale(.1);
 }
 
 50%{
-  filter:blur(.05rem);
-  transform: translate(78vw, -25rem) rotate(60deg) scale(.6);
+  filter:blur(0.5rem);
+  transform: translate(78vw, -15rem) rotate(80deg) scale(.2);
 }
-75%{
-  filter:blur(.05rem);
-  transform: translate(80vw, -35rem) rotate(100deg) scale(.6);
-}
+
   100%{
-    filter:blur(0.03rem);
-    transform: translate(130vw, -55rem) rotate(100deg) scale(.9);
+    filter:blur(0.5rem);
+    transform: translate(180vw, -5rem) rotate(130deg) scale(.1);
   }
 }
 

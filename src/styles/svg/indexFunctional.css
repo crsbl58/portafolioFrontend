@@ -1,0 +1,130 @@
+/* tocadisco */
+.turntable0{fill:#566872;stroke:#5D7582;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable1{fill:rgb(63, 51, 40);stroke:#815B3D;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable2{fill:#5B6266;stroke:#5D7582;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable3{fill:#474746;stroke:#4F4E4E;stroke-width:0.05;stroke-miterlimit:10;}
+.turntable4{fill:#606060;stroke:#5E5D5D;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable5{fill:none;stroke:#6B6B6B;stroke-width:0.05;stroke-miterlimit:10;}
+.turntable6{fill:#828281;stroke:#757575;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable7{fill:#606060;stroke:#545252;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable8{fill:#473939;stroke:#4F3131;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable9{fill:#444444;stroke:#6D6C6C;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable10{fill:#727070;}
+.turntable11{fill:#595858;stroke:#3A3434;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable12{fill:#595858;stroke:#3A3434;stroke-width:0.01;stroke-miterlimit:10;}
+.turntable13{fill:#967f66;stroke:#8E693C;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable14{fill:#4E5F68;stroke:#53616D;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable15{fill:#837e66;stroke:#9B9A70;stroke-width:0.04;stroke-miterlimit:10;}
+.turntable16{fill:#857d6c;stroke:#726646;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable17{fill:#B2AB8D;stroke:#7C7865;stroke-width:0.04;stroke-miterlimit:10;}
+.turntable18{fill:none;stroke:#AA9F74;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable19{fill:none;stroke:#AA9F74;stroke-width:0.05;stroke-miterlimit:10;}
+.turntable20{fill:#a7927e;stroke:#8E693C;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable21{fill:#82817F;stroke:#63605C;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable22{fill:#82817F;stroke:#54504B;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable23{fill:#939393;stroke:#8E693C;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable24{fill:#939393;stroke:#5E4D3B;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable25{fill:none;stroke:#A09C90;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable26{fill:none;stroke:#AA9F74;stroke-width:0.02;stroke-miterlimit:10;}
+.turntable27{fill:none;stroke:#AA9F74;stroke-width:0.01;stroke-miterlimit:10;}
+.turntable28{fill:#848383;stroke:#7F756A;stroke-width:0.03;stroke-miterlimit:10;}
+#gTurntable00{
+    transition: .3s;
+    cursor:pointer;
+    transform: scale(1.01);
+}
+#gTurntable01{
+    transition: .3s;
+    cursor:pointer;
+    transform: scale(1.01);
+}
+
+#svgGroupBackTurntable{
+    transition: .3s;
+    cursor:pointer;
+    transform: scale(1.01);
+}
+#svgGroupBackTurntable:hover{
+    transform: scale(1);
+    fill:#a7a4a4;
+}
+#svgGroupNextTurntable{
+    transition: .3s;
+    cursor:pointer;
+    transform: scale(1.01);
+}
+#svgGroupNextTurntable:hover{
+    transform: scale(1);
+    fill:#a7a4a4;
+}
+
+#svgGroupUpTurnTable{
+    transition: .3s;
+    cursor:pointer;
+    transform: scale(1.005);
+}
+#svgGroupUpTurnTable:hover{
+    transform: scale(1);
+    fill:#a7a4a4;
+}
+#svgGroupDownTurnTable{
+    transition: .3s;
+    cursor:pointer;
+    transform: scale(1.005);
+}
+#svgGroupDownTurnTable:hover{
+    transform: scale(1);
+    fill:#a7a4a4;
+}
+
+#gTurntable00:hover{
+    transform: scale(1);
+
+}
+#gTurntable00:hover > .turntable29{
+    fill:#9b9a9a;
+    
+}
+
+#gTurntable01:hover {
+    transform: scale(1);
+}
+#gTurntable01:hover > .turntable29{
+    fill:#9b9a9a;
+
+}
+
+
+.turntable29{transition: 0.3s;fill:#919191;stroke:#6B6967;stroke-width:0.05;stroke-miterlimit:10;}
+
+
+.turntable30{fill:#777777;}
+.turntable31{fill:#A59F84;}
+.turntable32{fill:#545453;}
+#disK00{
+   animation-name: moveDisk00;
+   animation-timing-function: linear;
+   animation-duration: .5s;
+   animation-iteration-count: infinite; 
+}
+@keyframes moveDisk00 {
+    50%{
+        d: path("M7.51,3.68C7.33,3.71,7.14,3.74,6.92,3.76c-0.4,0.03-0.76,0.01-1.06-0.03c0,0.06,0,0.15-0.05,0.25  C5.71,4.23,5.46,4.31,5.41,4.32C5.68,4.37,5.98,4.44,6.3,4.53c0.28,0.09,0.54,0.19,0.76,0.28c0.1-0.08,0.54-0.46,0.49-0.95  C7.54,3.81,7.53,3.75,7.51,3.68z");
+    }
+}
+
+#disK01{
+    animation-name: moveDisk01;
+    animation-timing-function: linear;
+    animation-duration: .5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes moveDisk01 {
+    50%{
+        d: path("M2.79,4C2.53,3.99,2.25,3.99,1.94,4.01C1.6,4.03,1.28,4.07,1,4.12c-0.01-0.1-0.01-0.24,0.03-0.4  c0.1-0.38,0.37-0.6,0.48-0.68c0.21,0.09,0.47,0.18,0.75,0.25c0.23,0.06,0.45,0.1,0.65,0.12c-0.03,0.02-0.14,0.1-0.18,0.27  C2.7,3.85,2.77,3.98,2.79,4z");
+    }
+}
+
+.turntable33{fill:#9F734A;stroke:#815B3D;stroke-width:0.03;stroke-miterlimit:10;}
+.turntable34{fill:none;stroke:#815B3D;stroke-width:0.01;stroke-miterlimit:10;}
+.turntable35{fill:none;stroke:#6D6D6C;stroke-width:0.01;stroke-miterlimit:10;}

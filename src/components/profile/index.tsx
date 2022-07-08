@@ -54,12 +54,12 @@ const Profile: FC<propsProfile> = ({ hookStateDayNight }) => {
         }
         className="divProfileContainer"
       >
-         {svg(3, 3, 30, 33, "#78B4D2").animals.medusa}
+        {svg(3, 3, 30, 33, "#78B4D2").animals.medusa}
         {svg(5, 5, 25, 35, "rgb(121, 166, 189)").animals.medusa}
         {svg(8, 8, 30, 35, "rgb(119, 178, 218)").animals.medusa}
         {svg().animals.fish00}
         {svg().animals.orca}
-    {/*     {svg().animals.tortoise} */}
+        {svg().animals.tortoise}
         <Bubbles />
         <div className="divContainerTitleProfile">
           <div className="divContainerFishingLine">{svg().fishingLine}</div>
@@ -109,8 +109,8 @@ const Profile: FC<propsProfile> = ({ hookStateDayNight }) => {
           <h3 className="h3TitleParagraphSkill00">Símbolo del sistema</h3>
 
           <p className="h3TitleParagraphSkill01">
-            C:\Cristobal{">"} git, reactRouterDom, flexBox, grid, typeScript,
-            hooks, context, redux, styled, socketIo.
+            C:\Cristobal{">"} git, flexBox, grid, typeScript, hooks, context,
+            redux, styled, socketIo, reactRouterDom
           </p>
         </div>
       </div>

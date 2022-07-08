@@ -15,6 +15,10 @@ height: 22rem;
 flex-flow: column nowrap;
 }
 
+.h3TitleParagraphSkill01{
+padding: 0.5rem .5rem 1rem 1rem;
+
+}
 
 .h1Title01{
     font-size: 2rem;

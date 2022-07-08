@@ -3,7 +3,7 @@ import "./responsiveApp.css";
 import "./styles/constants.css";
 import Header from "./components/header/index";
 import { useNavigate } from "react-router-dom";
-import React, { FC, useEffect, useRef, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import Profile from "./components/profile/index";
 import NavBar from "./components/navBar/index";
 import Footer from "./components/footer";

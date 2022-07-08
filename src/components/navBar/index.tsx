@@ -1,4 +1,5 @@
 import svg from "../../img/svg";
+import svgFunctional from "../../img/svg/indexFunctional";
 import "../../styles/navBar/index.css";
 import "../../styles/navBar/responsiveIndex.css";
 const NavBar = () => {
@@ -6,12 +7,15 @@ const NavBar = () => {
     <nav>
       <ul>
         <li
-        className='flexRow'
+          className="flexRow"
           onClick={() => {
-            window.open("https://github.com/crsbl/portafolioFrontend", "_blank");
+            window.open(
+              "https://github.com/crsbl/portafolioFrontend",
+              "_blank"
+            );
           }}
         >
-        {svg().iconGit}
+          {svg().iconGit}
           Git
         </li>
         <ul>
@@ -20,6 +24,7 @@ const NavBar = () => {
             <li>z.edd36@gmail.com</li>
           </ul>
         </ul>
+    
       </ul>
     </nav>
   );

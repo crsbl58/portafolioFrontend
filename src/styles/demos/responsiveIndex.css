@@ -6,4 +6,16 @@
   flex-flow: column nowrap;
   align-items: center;
 }
+
+.divContainerTitleDemos{
+  flex-flow: column nowrap;
+}
+
+.divContainerRadio00{
+  filter: brightness(0.5);
+  position: relative;
+width:15rem;
+height: 10rem;
+
+}
 }

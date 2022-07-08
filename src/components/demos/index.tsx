@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../../styles/demos/index.css";
 import "../../styles/demos/responsiveIndex.css";
 import svg from "../../img/svg/index";
+import svgFunctional from "../../img/svg/indexFunctional";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 
 const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
@@ -39,6 +40,7 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
     <div className="divContainerDemos00">
       <div className="divContainerTitleDemos">
         <h1>Demos</h1>
+        <div className="divContainerRadio00">{svgFunctional.TurnTable()}</div>
       </div>
       <div className="divContainerSelectionDemos00">
         {stateListDemos.map((listDemo: any, index) => (

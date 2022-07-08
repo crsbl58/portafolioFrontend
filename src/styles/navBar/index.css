@@ -20,11 +20,12 @@ nav {
 nav > ul {
   display: flex;
   flex-flow: row nowrap;
+  gap: 1rem;
 }
 
 nav > ul > li {
   list-style-type: none;
-  cursor: pointer;
+  
   margin: 0 .5rem 0 .5rem;
   font-weight: 800;
   font-size: 1.8rem;
@@ -37,11 +38,12 @@ nav > ul > li {
   gap: .2rem;
   align-items: center;
 }
-nav > ul > li:hover {
+nav > ul > li:nth-child(1):hover {
+  cursor: pointer;
   color: rgba(245, 238, 223, 0.938);
   background-color: rgba(247, 193, 193, 0.301);
-
 }
+
 
 nav > ul > ul {
   list-style-type: none;
@@ -71,17 +73,18 @@ nav > ul > ul:hover {
 
 nav > ul > ul > ul {
   position: absolute;
-  left:0;
+
   transition: 0.3s;
   visibility: hidden;
   opacity: 0;
-  padding: 0.5rem;
+  padding: 0.5rem 0 .5rem 0;
 }
 nav > ul > ul > ul > li {
+
   white-space: nowrap;
   background: linear-gradient(90deg, Transparent 5%, rgba(49, 95, 136, 0.322) 19%, rgba(49, 95, 136, 0.356) 66%, Transparent 95%);
   list-style-type: none;
-  padding: 0.5rem 5rem 0.5rem 5rem;
+  padding: 0.5rem 2rem 0.5rem 5rem;
   color: rgba(205, 223, 221, 0.938);
   font-family: "Lobster", cursive;
   font-size: 1.7rem;
@@ -91,6 +94,28 @@ nav > ul > ul:hover > ul {
   visibility: visible;
   opacity: 1;
 }
+
+
+.divContainerRadio00 > button{
+  padding: 1rem;
+  background-color: rgb(28, 75, 94);
+  border:solid .1rem rgba(68, 106, 128, 0.342);
+  color: rgb(152, 167, 194);
+  position:absolute;
+  top:-.3rem;
+  left:-.5rem;
+  border-radius: 3rem ;
+  width:3rem;
+  height:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 800;
+}
+
+
 
 .h1Title00 {
   font-family: "Aladin", cursive;
@@ -150,11 +175,8 @@ nav > ul > ul:hover > ul {
   text-shadow: 0.05rem 0.05rem 0.1rem rgb(104, 105, 119);
 }
 nav > ul > ul > ul > li:first-child:before {
+  text-align: left;
   content: "Correo: ";
   color: rgb(138, 195, 218);
 }
 
-nav > ul > ul > ul > li:last-child:before {
-  content: "Correo: ";
-  color: rgb(138, 195, 218);
-}
