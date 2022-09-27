@@ -31,6 +31,11 @@ const Demos = ({ hookstateApp, hookSetStateApp }: any) => {
       iconComponent: svg().iconChatRoom,
       link: "Chat",
     },
+    {
+      name: "Maquetas",
+      iconComponent: svg().iconLayout,
+      link: "Layout",
+    },
   ]);
 
   let navigate = useNavigate();

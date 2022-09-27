@@ -1816,6 +1816,18 @@ C22.9,9.48,17.82,5.26,12.61,6.98z"
       />
     </svg>,
   ],
+  iconLayout:[<svg version="1.1" id="Capa_1"  x="0px" y="0px"
+  viewBox="0 0 30 30" >
+<style type="text/css">
+
+</style>
+<rect x="3.7" y="1.28" className="Layout0" width="22.59" height="27.95"/>
+<rect x="5.03" y="6.6" className="Layout0" width="20.03" height="2.39"/>
+<rect x="5.03" y="10.24" className="Layout0" width="9.8" height="15.27"/>
+<rect x="16.23" y="11.16" className="Layout0" width="8.89" height="14.35"/>
+<rect x="5.03" y="1.97" className="Layout0" width="20.03" height="4.18"/>
+<rect x="5.03" y="26.23" className="Layout0" width="20.03" height="2.39"/>
+</svg>],
   animals: {
     medusa: [
       <svg

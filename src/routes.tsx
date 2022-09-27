@@ -4,6 +4,7 @@ import GalleryPdf from "./components/demos/gallery/index";
 import ApiNasa from "./components/demos/apiNasa/index";
 import Graphics from "./components/demos/graphics/index";
 import Chat from "./components/demos/chat/index";
+import Layout from "./components/demos/layout/index";
 
 const RoutesApp = () => (
   <Routes>
@@ -12,6 +13,7 @@ const RoutesApp = () => (
       <Route path="Api" element={<ApiNasa />}></Route>
       <Route path="Graphics" element={<Graphics />}></Route>
       <Route path="Chat" element={<Chat />}></Route>
+      <Route path="Layout" element={<Layout />}></Route>
     </Route> 
     <Route path="*" element={<div>no found</div>} />
   </Routes>
