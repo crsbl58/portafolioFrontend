@@ -33,7 +33,7 @@ background: linear-gradient(270deg, rgba(54, 150, 206, 0.11) 13%, rgba(43, 126, 
     text-shadow: -0.01rem -0.01rem 0.1rem rgb(219 217 217);
     padding: 0.4rem 1rem 0.4rem 1rem;
     background: linear-gradient(270deg, rgba(54, 150, 206, 0.295) 13%, rgba(27, 74, 95, 0.356) 85%);
-border-bottom: solid 0.2rem rgba(184, 192, 196, 0.39);
+
 border-right: solid 0.2rem rgba(184, 192, 196, 0.39);
 border-radius: 0 0 1rem 0;
 display: flex;
@@ -64,20 +64,25 @@ align-items: center;
     border-radius: 0rem 0 0 0.3rem;
 }
 
+
+
+
+
+
 .h3TitleworkExperience01{
     width:100%;
     background-color: rgba(88, 147, 196, 0.192);
     font-weight: 750;
     font-size: 1.3rem;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
-    color: rgb(148, 196, 193);
+    color: rgb(88, 216, 208);
 transition: .3s;
     font-family: monospace; 
 }
 
 .h3TitleworkExperience01:hover{
     text-decoration: underline;
-    color:rgb(118, 199, 195); 
+    color: rgb(118, 224, 219)
 }
 
 .divContainerSkillWorkExperience{
