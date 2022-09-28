@@ -35,6 +35,12 @@ const Graphics = () => {
               "_blank"
             );
           }}>pagina04</h2>
+          <h2 onClick={() => {
+            window.open(
+              "https://cugat-publicidad-kleg.vercel.app/",
+              "_blank"
+            );
+          }}>pagina05</h2>
         </div>
       </div>
     </div>
