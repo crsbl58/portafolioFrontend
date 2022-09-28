@@ -1,10 +1,16 @@
 footer{
-    margin: 5rem 0 0 0;
+    
     display: flex;
     justify-content: center;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+
+
+    background-color: rgb(27, 24, 24);
+  
+}
+
+footer > h3{
+    padding: 3rem 0 1rem 0 ;
     color: rgb(160, 160, 160);
-    background-color: rgb(31, 31, 31);
     font-weight: 600;
     text-align:center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
