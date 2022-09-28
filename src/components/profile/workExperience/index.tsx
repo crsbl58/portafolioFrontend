@@ -43,12 +43,12 @@ const ExperienceIndividual:FC<propsExperienceIndividual>= ({
 <h1 className='h1TitleWorkExperience00'><div className='imgIconoSkills00'> {/* svg().ico.icoTraining */}</div>Experiencia laboral</h1>
 <ExperienceIndividual
 hookListSkillWorkExperience={listSkillWorkExperience[0]}
-title01WorkExperience={'1 año 6 meses'}
+title01WorkExperience={'1 año 6 meses Cugat San vicente'}
 title02WorkExperience={' Soporte informatico'}
 />
 <ExperienceIndividual
 hookListSkillWorkExperience={listSkillWorkExperience[1]}
-title01WorkExperience={'3 meses'}
+title01WorkExperience={'3 meses jumpitt'}
 title02WorkExperience={'Front-end Reactjs'}
 />
 </div>
