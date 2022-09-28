@@ -7,8 +7,9 @@ import React, { FC, useState } from 'react';
 const WorkExperience: FC = () =>{
     
     const [listSkillWorkExperience, setListSkillWorkExperience] = useState([
-        [['Soporte'],['Asistencia'], ['javascript']],
-        [['Css3'], ['Html5'], ['Antd'],['ReactJs'], ['Redux'], ['GitLab'], ['Jira'], ['typeScript']]
+        [['photoshop']],
+        [['Soporte'],['Asistencia'], ['Html'], ['Css'], ['Javascript']],
+        [['Css3'], ['Html5'],['ReactJs'] ,['Antd'] ,['Redux'], ['typeScript'], ['Git'], ['Jira']]
     ]);
 
 interface propsExperienceIndividual{
@@ -43,11 +44,16 @@ const ExperienceIndividual:FC<propsExperienceIndividual>= ({
 <h1 className='h1TitleWorkExperience00'><div className='imgIconoSkills00'> {/* svg().ico.icoTraining */}</div>Experiencia laboral</h1>
 <ExperienceIndividual
 hookListSkillWorkExperience={listSkillWorkExperience[0]}
+title01WorkExperience={'6 meses Altom'}
+title02WorkExperience={' Estudio fotografico'}
+/>
+<ExperienceIndividual
+hookListSkillWorkExperience={listSkillWorkExperience[1]}
 title01WorkExperience={'1 año 6 meses Cugat San vicente'}
 title02WorkExperience={' Soporte informatico'}
 />
 <ExperienceIndividual
-hookListSkillWorkExperience={listSkillWorkExperience[1]}
+hookListSkillWorkExperience={listSkillWorkExperience[2]}
 title01WorkExperience={'3 meses jumpitt'}
 title02WorkExperience={'Front-end Reactjs'}
 />
