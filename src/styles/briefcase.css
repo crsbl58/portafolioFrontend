@@ -1,12 +1,18 @@
 .divBriefcase00{
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  width:16rem;
-  height:15rem;
-position: relative;
+  align-items: center; */
+  /* width:16rem;
+  height:15rem; */
+
+  width:12rem;
+  height: 10rem;
+ 
+  background-image: url("../img/portafolio.svg");
+/* position: relative; */
+background-repeat: no-repeat;
 z-index: 0;
-transform: scale(0.7);
+/* transform: scale(0.7); */
 }
 
 .divBriefcase01{

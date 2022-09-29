@@ -17,7 +17,8 @@ const Briefcase: FC = () => {
   /*  cntx.ptf.f_obn_stdo(std_prtf, setstd_prtf) */
 
   return <div className='divBriefcase00'>
-    <div className='divBriefcase01'></div>
+    
+   {/*  <div className='divBriefcase01'></div>
   
     <div className='divBriefcase02_00'></div>
     <div className='divBriefcase02_02'></div>
@@ -32,7 +33,7 @@ const Briefcase: FC = () => {
       <div className='divBriefcase04_00' style={stateBriefcase.animacion01}>
         <div className='divBriefcase04_00_00'></div>
       </div>
-    </div>
+    </div> */}
 
   </div>
 }

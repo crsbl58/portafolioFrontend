@@ -106,8 +106,10 @@
   font-family: monospace;
   text-align: left;
   transition: 0.3s;
-  color: rgb(88, 216, 208);
-  background: linear-gradient(
+  /* color: rgb(88, 216, 208);  */
+ color: aliceblue;
+  
+   background: linear-gradient(
     90deg,
     transparent,
     rgba(62, 94, 128, 0.644) 15%,
