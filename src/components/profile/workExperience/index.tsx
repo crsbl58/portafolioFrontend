@@ -8,7 +8,7 @@ const WorkExperience: FC = () =>{
     
     const [listSkillWorkExperience, setListSkillWorkExperience] = useState([
         [['photoshop']],
-        [['Soporte'],['Asistencia'], ['Html'], ['Css3'], ['Javascript']],
+        [['Soporte'],['Asistencia'], ['Html5'], ['Css3'], ['Javascript']],
         [['Css3'], ['Html5'],['ReactJs'] ,['Antd'] ,['Redux'], ['typeScript'], ['Git'], ['Jira']]
     ]);
 

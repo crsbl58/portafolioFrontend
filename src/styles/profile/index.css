@@ -18,16 +18,17 @@
 .divContainerInfoAndWorkExperience{
   z-index: 22;
   border-radius: .2rem;
-  margin:0 0 1rem 0;
+  margin:1rem 0 1rem 0;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 
+padding: .2rem;
 }
 
 
 .divSkillsDescription {
-  margin: 1rem 0 0 0;
+  
   width: 48rem;
   display: flex;
   flex-flow: column nowrap;
@@ -160,7 +161,7 @@ transition: 0.3s;
 }
 
 .divContainerTitleProfile{
-  background-color: rgba(62, 95, 111, 0.381);
+  background-color: rgba(75, 132, 161, 0.437);
 display: flex;
 justify-content: center;
 height:9rem;
