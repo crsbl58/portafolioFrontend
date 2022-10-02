@@ -13,10 +13,12 @@
   font-size: 1.5rem;
   font-weight: 800;
   border-radius: 0 0 1rem 0;
-
+  
+border-right: solid 0.2rem rgba(184, 192, 196, 0.39);
 }
 .divContainerInfoAndWorkExperience{
   z-index: 22;
+
   border-radius: .2rem;
   margin:1rem 0 1rem 0;
   display: flex;
@@ -24,6 +26,14 @@
   align-items: center;
 
 padding: .2rem;
+
+  padding: 0 0 1rem 0;
+  margin:0 0 1rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+ width:99vw;
+
 }
 
 
@@ -161,11 +171,13 @@ transition: 0.3s;
 }
 
 .divContainerTitleProfile{
+
   background-color: rgba(75, 132, 161, 0.437);
+
 display: flex;
 justify-content: center;
 height:9rem;
-border-radius: 0.5rem;
+border-radius: 0.3rem;
 flex-flow: row nowrap;  
 align-items: center;
 position:relative;
