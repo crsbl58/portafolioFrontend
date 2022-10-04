@@ -106,7 +106,7 @@
   font-family: monospace;
   text-align: left;
   transition: 0.3s;
-  color: rgb(88, 216, 208);
+  color: rgb(199, 233, 231);
   background: linear-gradient(
     90deg,
     transparent,
@@ -117,5 +117,5 @@
 
 .paragraphSkills00:hover {
   text-decoration: underline;
-  color: rgb(118, 224, 219)
+  color: rgb(227, 245, 244);
 }

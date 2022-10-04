@@ -3,10 +3,11 @@
   justify-content: center;
   align-items: center;
   width:16rem;
-  height:15rem;
+  height:14rem;
 position: relative;
 z-index: 0;
 transform: scale(0.7);
+background-image: url('../img/portafolio.svg');
 }
 
 .divBriefcase01{
