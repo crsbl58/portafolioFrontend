@@ -6,6 +6,8 @@ import img_html_01 from '../../../img/skill//html/html01.svg';
 import img_css_01 from '../../../img/skill/css/css01.svg'
 import img_js_01 from '../../../img/skill/js/js01.svg'
 import img_react_01 from '../../../img/skill/react/react01.svg'
+import imgExpress from '../../../img/skill/express/express.svg'
+import imgExpress01 from '../../../img/skill/express/express01.svg'
 import imgNode from '../../../img/skill/node/node.svg'
 import imgNode01 from '../../../img/skill/node/node01.svg'
 import '../../../styles/profile/skill/index.css';
@@ -20,7 +22,8 @@ const Skill: FC = () =>{
    [["CSS3"], ["maquetacion responsiva"], [img_css_00], [img_css_01]],
         [["JAVASCRIPT"], ["forms, cruds "], [img_js_00], [img_js_01]],
         [["REACT.JS"], ["hooks"], [img_react_00], [img_react_01]], 
-        [["NODE.JS"], ["Api"], [imgNode], [imgNode01]]
+        [["NODE.JS"], ["Api"], [imgNode], [imgNode01]],
+        [["Express"], ["Api"], [imgExpress], [imgExpress01]]
       ]);
   return(
 <div className='divContainerSkills00'>
