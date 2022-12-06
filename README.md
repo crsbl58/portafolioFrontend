@@ -1,6 +1,6 @@
 # portafolio
 
-react, redux, typescript 
+react, typescript 
 
 ## Getting started
 
